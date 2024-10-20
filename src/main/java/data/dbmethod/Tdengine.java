@@ -7,7 +7,7 @@ import driver.CustomizedClient;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
-import model.VisitorConfig;
+import driver.VisitorConfig;
 import model.common.DataModel;
 import model.common.DeviceInstance;
 
@@ -22,7 +22,8 @@ import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 
 import static data.DataConverter.convertToString;
-import static model.common.Const.defaultReportCycle;
+import static model.common.Const.*;
+
 @Slf4j
 public class Tdengine {
     public static void dataHandler(DeviceInstance.Twin twin, CustomizedClient client, VisitorConfig visitorConfig, DataModel dataModel, List<ScheduledFuture<?>> futures){
@@ -85,8 +86,8 @@ public class Tdengine {
         private TDEngineClientConfig tdClientConfig;
         public Connection initDbClient(){
             Connection dbClient = null;
-            String userName = System.getenv("USERNAME");
-            String password = System.getenv("PASSWORD");
+            String userName = System.getenv(env_USERNAME);
+            String password = System.getenv(env_PASSWORD);
             String url = String.format("jdbc:TAOS-RS://%s/%s", this.tdClientConfig.addr, this.tdClientConfig.dbName);
             try {
                 dbClient = DriverManager.getConnection(url, userName, password);

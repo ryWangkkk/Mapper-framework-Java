@@ -1,7 +1,7 @@
 package data.stream;
 
 import driver.CustomizedClient;
-import model.VisitorConfig;
+import driver.VisitorConfig;
 import model.common.DeviceInstance;
 
 public class StreamHandler {

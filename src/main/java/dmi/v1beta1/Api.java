@@ -567,7 +567,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder setWithData(boolean value) {
-        
+
         withData_ = value;
         onChanged();
         return this;
@@ -583,7 +583,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearWithData() {
-        
+
         withData_ = false;
         onChanged();
         return this;
@@ -704,7 +704,7 @@ public final class Api {
        * <code>.v1beta1.MapperInfo mapper = 2;</code>
        */
       public dmi.v1beta1.Api.MapperInfo.Builder getMapperBuilder() {
-        
+
         onChanged();
         return getMapperFieldBuilder().getBuilder();
       }
@@ -731,7 +731,7 @@ public final class Api {
        * <code>.v1beta1.MapperInfo mapper = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.MapperInfo, dmi.v1beta1.Api.MapperInfo.Builder, dmi.v1beta1.Api.MapperInfoOrBuilder> 
+          dmi.v1beta1.Api.MapperInfo, dmi.v1beta1.Api.MapperInfo.Builder, dmi.v1beta1.Api.MapperInfoOrBuilder>
           getMapperFieldBuilder() {
         if (mapperBuilder_ == null) {
           mapperBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -807,7 +807,7 @@ public final class Api {
      *
      * <code>repeated .v1beta1.DeviceModel modelList = 1;</code>
      */
-    java.util.List<dmi.v1beta1.Api.DeviceModel> 
+    java.util.List<dmi.v1beta1.Api.DeviceModel>
         getModelListList();
     /**
      * <pre>
@@ -832,7 +832,7 @@ public final class Api {
      *
      * <code>repeated .v1beta1.DeviceModel modelList = 1;</code>
      */
-    java.util.List<? extends dmi.v1beta1.Api.DeviceModelOrBuilder> 
+    java.util.List<? extends dmi.v1beta1.Api.DeviceModelOrBuilder>
         getModelListOrBuilderList();
     /**
      * <pre>
@@ -851,7 +851,7 @@ public final class Api {
      *
      * <code>repeated .v1beta1.Device deviceList = 2;</code>
      */
-    java.util.List<dmi.v1beta1.Api.Device> 
+    java.util.List<dmi.v1beta1.Api.Device>
         getDeviceListList();
     /**
      * <pre>
@@ -876,7 +876,7 @@ public final class Api {
      *
      * <code>repeated .v1beta1.Device deviceList = 2;</code>
      */
-    java.util.List<? extends dmi.v1beta1.Api.DeviceOrBuilder> 
+    java.util.List<? extends dmi.v1beta1.Api.DeviceOrBuilder>
         getDeviceListOrBuilderList();
     /**
      * <pre>
@@ -1013,7 +1013,7 @@ public final class Api {
      * <code>repeated .v1beta1.DeviceModel modelList = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends dmi.v1beta1.Api.DeviceModelOrBuilder> 
+    public java.util.List<? extends dmi.v1beta1.Api.DeviceModelOrBuilder>
         getModelListOrBuilderList() {
       return modelList_;
     }
@@ -1073,7 +1073,7 @@ public final class Api {
      * <code>repeated .v1beta1.Device deviceList = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends dmi.v1beta1.Api.DeviceOrBuilder> 
+    public java.util.List<? extends dmi.v1beta1.Api.DeviceOrBuilder>
         getDeviceListOrBuilderList() {
       return deviceList_;
     }
@@ -1445,7 +1445,7 @@ public final class Api {
               modelListBuilder_ = null;
               modelList_ = other.modelList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              modelListBuilder_ = 
+              modelListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getModelListFieldBuilder() : null;
             } else {
@@ -1471,7 +1471,7 @@ public final class Api {
               deviceListBuilder_ = null;
               deviceList_ = other.deviceList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              deviceListBuilder_ = 
+              deviceListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getDeviceListFieldBuilder() : null;
             } else {
@@ -1764,7 +1764,7 @@ public final class Api {
        *
        * <code>repeated .v1beta1.DeviceModel modelList = 1;</code>
        */
-      public java.util.List<? extends dmi.v1beta1.Api.DeviceModelOrBuilder> 
+      public java.util.List<? extends dmi.v1beta1.Api.DeviceModelOrBuilder>
            getModelListOrBuilderList() {
         if (modelListBuilder_ != null) {
           return modelListBuilder_.getMessageOrBuilderList();
@@ -1802,12 +1802,12 @@ public final class Api {
        *
        * <code>repeated .v1beta1.DeviceModel modelList = 1;</code>
        */
-      public java.util.List<dmi.v1beta1.Api.DeviceModel.Builder> 
+      public java.util.List<dmi.v1beta1.Api.DeviceModel.Builder>
            getModelListBuilderList() {
         return getModelListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          dmi.v1beta1.Api.DeviceModel, dmi.v1beta1.Api.DeviceModel.Builder, dmi.v1beta1.Api.DeviceModelOrBuilder> 
+          dmi.v1beta1.Api.DeviceModel, dmi.v1beta1.Api.DeviceModel.Builder, dmi.v1beta1.Api.DeviceModelOrBuilder>
           getModelListFieldBuilder() {
         if (modelListBuilder_ == null) {
           modelListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2076,7 +2076,7 @@ public final class Api {
        *
        * <code>repeated .v1beta1.Device deviceList = 2;</code>
        */
-      public java.util.List<? extends dmi.v1beta1.Api.DeviceOrBuilder> 
+      public java.util.List<? extends dmi.v1beta1.Api.DeviceOrBuilder>
            getDeviceListOrBuilderList() {
         if (deviceListBuilder_ != null) {
           return deviceListBuilder_.getMessageOrBuilderList();
@@ -2114,12 +2114,12 @@ public final class Api {
        *
        * <code>repeated .v1beta1.Device deviceList = 2;</code>
        */
-      public java.util.List<dmi.v1beta1.Api.Device.Builder> 
+      public java.util.List<dmi.v1beta1.Api.Device.Builder>
            getDeviceListBuilderList() {
         return getDeviceListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          dmi.v1beta1.Api.Device, dmi.v1beta1.Api.Device.Builder, dmi.v1beta1.Api.DeviceOrBuilder> 
+          dmi.v1beta1.Api.Device, dmi.v1beta1.Api.Device.Builder, dmi.v1beta1.Api.DeviceOrBuilder>
           getDeviceListFieldBuilder() {
         if (deviceListBuilder_ == null) {
           deviceListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2380,7 +2380,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         name_ = s;
@@ -2400,7 +2400,7 @@ public final class Api {
         getNameBytes() {
       java.lang.Object ref = name_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         name_ = b;
@@ -2464,7 +2464,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         namespace_ = s;
@@ -2484,7 +2484,7 @@ public final class Api {
         getNamespaceBytes() {
       java.lang.Object ref = namespace_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         namespace_ = b;
@@ -2880,7 +2880,7 @@ public final class Api {
           getNameBytes() {
         java.lang.Object ref = name_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           name_ = b;
@@ -2903,7 +2903,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         name_ = value;
         onChanged();
         return this;
@@ -2917,7 +2917,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearName() {
-        
+
         name_ = getDefaultInstance().getName();
         onChanged();
         return this;
@@ -2937,7 +2937,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         name_ = value;
         onChanged();
         return this;
@@ -3058,7 +3058,7 @@ public final class Api {
        * <code>.v1beta1.DeviceModelSpec spec = 2;</code>
        */
       public dmi.v1beta1.Api.DeviceModelSpec.Builder getSpecBuilder() {
-        
+
         onChanged();
         return getSpecFieldBuilder().getBuilder();
       }
@@ -3085,7 +3085,7 @@ public final class Api {
        * <code>.v1beta1.DeviceModelSpec spec = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.DeviceModelSpec, dmi.v1beta1.Api.DeviceModelSpec.Builder, dmi.v1beta1.Api.DeviceModelSpecOrBuilder> 
+          dmi.v1beta1.Api.DeviceModelSpec, dmi.v1beta1.Api.DeviceModelSpec.Builder, dmi.v1beta1.Api.DeviceModelSpecOrBuilder>
           getSpecFieldBuilder() {
         if (specBuilder_ == null) {
           specBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3131,7 +3131,7 @@ public final class Api {
           getNamespaceBytes() {
         java.lang.Object ref = namespace_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           namespace_ = b;
@@ -3154,7 +3154,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         namespace_ = value;
         onChanged();
         return this;
@@ -3168,7 +3168,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearNamespace() {
-        
+
         namespace_ = getDefaultInstance().getNamespace();
         onChanged();
         return this;
@@ -3188,7 +3188,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         namespace_ = value;
         onChanged();
         return this;
@@ -3257,7 +3257,7 @@ public final class Api {
      *
      * <code>repeated .v1beta1.ModelProperty properties = 1;</code>
      */
-    java.util.List<dmi.v1beta1.Api.ModelProperty> 
+    java.util.List<dmi.v1beta1.Api.ModelProperty>
         getPropertiesList();
     /**
      * <pre>
@@ -3282,7 +3282,7 @@ public final class Api {
      *
      * <code>repeated .v1beta1.ModelProperty properties = 1;</code>
      */
-    java.util.List<? extends dmi.v1beta1.Api.ModelPropertyOrBuilder> 
+    java.util.List<? extends dmi.v1beta1.Api.ModelPropertyOrBuilder>
         getPropertiesOrBuilderList();
     /**
      * <pre>
@@ -3301,7 +3301,7 @@ public final class Api {
      *
      * <code>repeated .v1beta1.DeviceCommand commands = 2;</code>
      */
-    java.util.List<dmi.v1beta1.Api.DeviceCommand> 
+    java.util.List<dmi.v1beta1.Api.DeviceCommand>
         getCommandsList();
     /**
      * <pre>
@@ -3326,7 +3326,7 @@ public final class Api {
      *
      * <code>repeated .v1beta1.DeviceCommand commands = 2;</code>
      */
-    java.util.List<? extends dmi.v1beta1.Api.DeviceCommandOrBuilder> 
+    java.util.List<? extends dmi.v1beta1.Api.DeviceCommandOrBuilder>
         getCommandsOrBuilderList();
     /**
      * <pre>
@@ -3467,7 +3467,7 @@ public final class Api {
      * <code>repeated .v1beta1.ModelProperty properties = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends dmi.v1beta1.Api.ModelPropertyOrBuilder> 
+    public java.util.List<? extends dmi.v1beta1.Api.ModelPropertyOrBuilder>
         getPropertiesOrBuilderList() {
       return properties_;
     }
@@ -3527,7 +3527,7 @@ public final class Api {
      * <code>repeated .v1beta1.DeviceCommand commands = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends dmi.v1beta1.Api.DeviceCommandOrBuilder> 
+    public java.util.List<? extends dmi.v1beta1.Api.DeviceCommandOrBuilder>
         getCommandsOrBuilderList() {
       return commands_;
     }
@@ -3903,7 +3903,7 @@ public final class Api {
               propertiesBuilder_ = null;
               properties_ = other.properties_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              propertiesBuilder_ = 
+              propertiesBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getPropertiesFieldBuilder() : null;
             } else {
@@ -3929,7 +3929,7 @@ public final class Api {
               commandsBuilder_ = null;
               commands_ = other.commands_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              commandsBuilder_ = 
+              commandsBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getCommandsFieldBuilder() : null;
             } else {
@@ -4222,7 +4222,7 @@ public final class Api {
        *
        * <code>repeated .v1beta1.ModelProperty properties = 1;</code>
        */
-      public java.util.List<? extends dmi.v1beta1.Api.ModelPropertyOrBuilder> 
+      public java.util.List<? extends dmi.v1beta1.Api.ModelPropertyOrBuilder>
            getPropertiesOrBuilderList() {
         if (propertiesBuilder_ != null) {
           return propertiesBuilder_.getMessageOrBuilderList();
@@ -4260,12 +4260,12 @@ public final class Api {
        *
        * <code>repeated .v1beta1.ModelProperty properties = 1;</code>
        */
-      public java.util.List<dmi.v1beta1.Api.ModelProperty.Builder> 
+      public java.util.List<dmi.v1beta1.Api.ModelProperty.Builder>
            getPropertiesBuilderList() {
         return getPropertiesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          dmi.v1beta1.Api.ModelProperty, dmi.v1beta1.Api.ModelProperty.Builder, dmi.v1beta1.Api.ModelPropertyOrBuilder> 
+          dmi.v1beta1.Api.ModelProperty, dmi.v1beta1.Api.ModelProperty.Builder, dmi.v1beta1.Api.ModelPropertyOrBuilder>
           getPropertiesFieldBuilder() {
         if (propertiesBuilder_ == null) {
           propertiesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -4534,7 +4534,7 @@ public final class Api {
        *
        * <code>repeated .v1beta1.DeviceCommand commands = 2;</code>
        */
-      public java.util.List<? extends dmi.v1beta1.Api.DeviceCommandOrBuilder> 
+      public java.util.List<? extends dmi.v1beta1.Api.DeviceCommandOrBuilder>
            getCommandsOrBuilderList() {
         if (commandsBuilder_ != null) {
           return commandsBuilder_.getMessageOrBuilderList();
@@ -4572,12 +4572,12 @@ public final class Api {
        *
        * <code>repeated .v1beta1.DeviceCommand commands = 2;</code>
        */
-      public java.util.List<dmi.v1beta1.Api.DeviceCommand.Builder> 
+      public java.util.List<dmi.v1beta1.Api.DeviceCommand.Builder>
            getCommandsBuilderList() {
         return getCommandsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          dmi.v1beta1.Api.DeviceCommand, dmi.v1beta1.Api.DeviceCommand.Builder, dmi.v1beta1.Api.DeviceCommandOrBuilder> 
+          dmi.v1beta1.Api.DeviceCommand, dmi.v1beta1.Api.DeviceCommand.Builder, dmi.v1beta1.Api.DeviceCommandOrBuilder>
           getCommandsFieldBuilder() {
         if (commandsBuilder_ == null) {
           commandsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -4933,7 +4933,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         name_ = s;
@@ -4953,7 +4953,7 @@ public final class Api {
         getNameBytes() {
       java.lang.Object ref = name_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         name_ = b;
@@ -4979,7 +4979,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         description_ = s;
@@ -4999,7 +4999,7 @@ public final class Api {
         getDescriptionBytes() {
       java.lang.Object ref = description_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         description_ = b;
@@ -5025,7 +5025,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         type_ = s;
@@ -5045,7 +5045,7 @@ public final class Api {
         getTypeBytes() {
       java.lang.Object ref = type_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         type_ = b;
@@ -5071,7 +5071,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         accessMode_ = s;
@@ -5091,7 +5091,7 @@ public final class Api {
         getAccessModeBytes() {
       java.lang.Object ref = accessMode_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         accessMode_ = b;
@@ -5117,7 +5117,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         minimum_ = s;
@@ -5137,7 +5137,7 @@ public final class Api {
         getMinimumBytes() {
       java.lang.Object ref = minimum_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         minimum_ = b;
@@ -5163,7 +5163,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         maximum_ = s;
@@ -5183,7 +5183,7 @@ public final class Api {
         getMaximumBytes() {
       java.lang.Object ref = maximum_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         maximum_ = b;
@@ -5209,7 +5209,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         unit_ = s;
@@ -5229,7 +5229,7 @@ public final class Api {
         getUnitBytes() {
       java.lang.Object ref = unit_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         unit_ = b;
@@ -5680,7 +5680,7 @@ public final class Api {
           getNameBytes() {
         java.lang.Object ref = name_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           name_ = b;
@@ -5703,7 +5703,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         name_ = value;
         onChanged();
         return this;
@@ -5717,7 +5717,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearName() {
-        
+
         name_ = getDefaultInstance().getName();
         onChanged();
         return this;
@@ -5737,7 +5737,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         name_ = value;
         onChanged();
         return this;
@@ -5776,7 +5776,7 @@ public final class Api {
           getDescriptionBytes() {
         java.lang.Object ref = description_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           description_ = b;
@@ -5799,7 +5799,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         description_ = value;
         onChanged();
         return this;
@@ -5813,7 +5813,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearDescription() {
-        
+
         description_ = getDefaultInstance().getDescription();
         onChanged();
         return this;
@@ -5833,7 +5833,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         description_ = value;
         onChanged();
         return this;
@@ -5872,7 +5872,7 @@ public final class Api {
           getTypeBytes() {
         java.lang.Object ref = type_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           type_ = b;
@@ -5895,7 +5895,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         type_ = value;
         onChanged();
         return this;
@@ -5909,7 +5909,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearType() {
-        
+
         type_ = getDefaultInstance().getType();
         onChanged();
         return this;
@@ -5929,7 +5929,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         type_ = value;
         onChanged();
         return this;
@@ -5968,7 +5968,7 @@ public final class Api {
           getAccessModeBytes() {
         java.lang.Object ref = accessMode_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           accessMode_ = b;
@@ -5991,7 +5991,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         accessMode_ = value;
         onChanged();
         return this;
@@ -6005,7 +6005,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearAccessMode() {
-        
+
         accessMode_ = getDefaultInstance().getAccessMode();
         onChanged();
         return this;
@@ -6025,7 +6025,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         accessMode_ = value;
         onChanged();
         return this;
@@ -6064,7 +6064,7 @@ public final class Api {
           getMinimumBytes() {
         java.lang.Object ref = minimum_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           minimum_ = b;
@@ -6087,7 +6087,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         minimum_ = value;
         onChanged();
         return this;
@@ -6101,7 +6101,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearMinimum() {
-        
+
         minimum_ = getDefaultInstance().getMinimum();
         onChanged();
         return this;
@@ -6121,7 +6121,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         minimum_ = value;
         onChanged();
         return this;
@@ -6160,7 +6160,7 @@ public final class Api {
           getMaximumBytes() {
         java.lang.Object ref = maximum_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           maximum_ = b;
@@ -6183,7 +6183,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         maximum_ = value;
         onChanged();
         return this;
@@ -6197,7 +6197,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearMaximum() {
-        
+
         maximum_ = getDefaultInstance().getMaximum();
         onChanged();
         return this;
@@ -6217,7 +6217,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         maximum_ = value;
         onChanged();
         return this;
@@ -6256,7 +6256,7 @@ public final class Api {
           getUnitBytes() {
         java.lang.Object ref = unit_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           unit_ = b;
@@ -6279,7 +6279,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         unit_ = value;
         onChanged();
         return this;
@@ -6293,7 +6293,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearUnit() {
-        
+
         unit_ = getDefaultInstance().getUnit();
         onChanged();
         return this;
@@ -6313,7 +6313,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         unit_ = value;
         onChanged();
         return this;
@@ -6678,7 +6678,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         name_ = s;
@@ -6698,7 +6698,7 @@ public final class Api {
         getNameBytes() {
       java.lang.Object ref = name_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         name_ = b;
@@ -6724,7 +6724,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         url_ = s;
@@ -6744,7 +6744,7 @@ public final class Api {
         getUrlBytes() {
       java.lang.Object ref = url_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         url_ = b;
@@ -6770,7 +6770,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         method_ = s;
@@ -6790,7 +6790,7 @@ public final class Api {
         getMethodBytes() {
       java.lang.Object ref = method_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         method_ = b;
@@ -7377,7 +7377,7 @@ public final class Api {
           getNameBytes() {
         java.lang.Object ref = name_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           name_ = b;
@@ -7400,7 +7400,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         name_ = value;
         onChanged();
         return this;
@@ -7414,7 +7414,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearName() {
-        
+
         name_ = getDefaultInstance().getName();
         onChanged();
         return this;
@@ -7434,7 +7434,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         name_ = value;
         onChanged();
         return this;
@@ -7473,7 +7473,7 @@ public final class Api {
           getUrlBytes() {
         java.lang.Object ref = url_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           url_ = b;
@@ -7496,7 +7496,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         url_ = value;
         onChanged();
         return this;
@@ -7510,7 +7510,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearUrl() {
-        
+
         url_ = getDefaultInstance().getUrl();
         onChanged();
         return this;
@@ -7530,7 +7530,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         url_ = value;
         onChanged();
         return this;
@@ -7569,7 +7569,7 @@ public final class Api {
           getMethodBytes() {
         java.lang.Object ref = method_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           method_ = b;
@@ -7592,7 +7592,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         method_ = value;
         onChanged();
         return this;
@@ -7606,7 +7606,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearMethod() {
-        
+
         method_ = getDefaultInstance().getMethod();
         onChanged();
         return this;
@@ -7626,7 +7626,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         method_ = value;
         onChanged();
         return this;
@@ -7950,7 +7950,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         response_ = value;
         onChanged();
         return this;
@@ -7964,7 +7964,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearResponse() {
-        
+
         response_ = getDefaultInstance().getResponse();
         onChanged();
         return this;
@@ -8257,7 +8257,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         name_ = s;
@@ -8277,7 +8277,7 @@ public final class Api {
         getNameBytes() {
       java.lang.Object ref = name_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         name_ = b;
@@ -8379,7 +8379,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         namespace_ = s;
@@ -8399,7 +8399,7 @@ public final class Api {
         getNamespaceBytes() {
       java.lang.Object ref = namespace_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         namespace_ = b;
@@ -8825,7 +8825,7 @@ public final class Api {
           getNameBytes() {
         java.lang.Object ref = name_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           name_ = b;
@@ -8848,7 +8848,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         name_ = value;
         onChanged();
         return this;
@@ -8862,7 +8862,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearName() {
-        
+
         name_ = getDefaultInstance().getName();
         onChanged();
         return this;
@@ -8882,7 +8882,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         name_ = value;
         onChanged();
         return this;
@@ -9003,7 +9003,7 @@ public final class Api {
        * <code>.v1beta1.DeviceSpec spec = 2;</code>
        */
       public dmi.v1beta1.Api.DeviceSpec.Builder getSpecBuilder() {
-        
+
         onChanged();
         return getSpecFieldBuilder().getBuilder();
       }
@@ -9030,7 +9030,7 @@ public final class Api {
        * <code>.v1beta1.DeviceSpec spec = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.DeviceSpec, dmi.v1beta1.Api.DeviceSpec.Builder, dmi.v1beta1.Api.DeviceSpecOrBuilder> 
+          dmi.v1beta1.Api.DeviceSpec, dmi.v1beta1.Api.DeviceSpec.Builder, dmi.v1beta1.Api.DeviceSpecOrBuilder>
           getSpecFieldBuilder() {
         if (specBuilder_ == null) {
           specBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -9158,7 +9158,7 @@ public final class Api {
        * <code>.v1beta1.DeviceStatus status = 3;</code>
        */
       public dmi.v1beta1.Api.DeviceStatus.Builder getStatusBuilder() {
-        
+
         onChanged();
         return getStatusFieldBuilder().getBuilder();
       }
@@ -9185,7 +9185,7 @@ public final class Api {
        * <code>.v1beta1.DeviceStatus status = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.DeviceStatus, dmi.v1beta1.Api.DeviceStatus.Builder, dmi.v1beta1.Api.DeviceStatusOrBuilder> 
+          dmi.v1beta1.Api.DeviceStatus, dmi.v1beta1.Api.DeviceStatus.Builder, dmi.v1beta1.Api.DeviceStatusOrBuilder>
           getStatusFieldBuilder() {
         if (statusBuilder_ == null) {
           statusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -9231,7 +9231,7 @@ public final class Api {
           getNamespaceBytes() {
         java.lang.Object ref = namespace_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           namespace_ = b;
@@ -9254,7 +9254,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         namespace_ = value;
         onChanged();
         return this;
@@ -9268,7 +9268,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearNamespace() {
-        
+
         namespace_ = getDefaultInstance().getNamespace();
         onChanged();
         return this;
@@ -9288,7 +9288,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         namespace_ = value;
         onChanged();
         return this;
@@ -9404,7 +9404,7 @@ public final class Api {
      *
      * <code>repeated .v1beta1.DeviceProperty properties = 3;</code>
      */
-    java.util.List<dmi.v1beta1.Api.DeviceProperty> 
+    java.util.List<dmi.v1beta1.Api.DeviceProperty>
         getPropertiesList();
     /**
      * <pre>
@@ -9429,7 +9429,7 @@ public final class Api {
      *
      * <code>repeated .v1beta1.DeviceProperty properties = 3;</code>
      */
-    java.util.List<? extends dmi.v1beta1.Api.DevicePropertyOrBuilder> 
+    java.util.List<? extends dmi.v1beta1.Api.DevicePropertyOrBuilder>
         getPropertiesOrBuilderList();
     /**
      * <pre>
@@ -9572,7 +9572,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         deviceModelReference_ = s;
@@ -9592,7 +9592,7 @@ public final class Api {
         getDeviceModelReferenceBytes() {
       java.lang.Object ref = deviceModelReference_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         deviceModelReference_ = b;
@@ -9661,7 +9661,7 @@ public final class Api {
      * <code>repeated .v1beta1.DeviceProperty properties = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends dmi.v1beta1.Api.DevicePropertyOrBuilder> 
+    public java.util.List<? extends dmi.v1beta1.Api.DevicePropertyOrBuilder>
         getPropertiesOrBuilderList() {
       return properties_;
     }
@@ -10055,7 +10055,7 @@ public final class Api {
               propertiesBuilder_ = null;
               properties_ = other.properties_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              propertiesBuilder_ = 
+              propertiesBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getPropertiesFieldBuilder() : null;
             } else {
@@ -10126,7 +10126,7 @@ public final class Api {
           getDeviceModelReferenceBytes() {
         java.lang.Object ref = deviceModelReference_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           deviceModelReference_ = b;
@@ -10149,7 +10149,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         deviceModelReference_ = value;
         onChanged();
         return this;
@@ -10163,7 +10163,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearDeviceModelReference() {
-        
+
         deviceModelReference_ = getDefaultInstance().getDeviceModelReference();
         onChanged();
         return this;
@@ -10183,7 +10183,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         deviceModelReference_ = value;
         onChanged();
         return this;
@@ -10304,7 +10304,7 @@ public final class Api {
        * <code>.v1beta1.ProtocolConfig protocol = 2;</code>
        */
       public dmi.v1beta1.Api.ProtocolConfig.Builder getProtocolBuilder() {
-        
+
         onChanged();
         return getProtocolFieldBuilder().getBuilder();
       }
@@ -10331,7 +10331,7 @@ public final class Api {
        * <code>.v1beta1.ProtocolConfig protocol = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.ProtocolConfig, dmi.v1beta1.Api.ProtocolConfig.Builder, dmi.v1beta1.Api.ProtocolConfigOrBuilder> 
+          dmi.v1beta1.Api.ProtocolConfig, dmi.v1beta1.Api.ProtocolConfig.Builder, dmi.v1beta1.Api.ProtocolConfigOrBuilder>
           getProtocolFieldBuilder() {
         if (protocolBuilder_ == null) {
           protocolBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -10599,7 +10599,7 @@ public final class Api {
        *
        * <code>repeated .v1beta1.DeviceProperty properties = 3;</code>
        */
-      public java.util.List<? extends dmi.v1beta1.Api.DevicePropertyOrBuilder> 
+      public java.util.List<? extends dmi.v1beta1.Api.DevicePropertyOrBuilder>
            getPropertiesOrBuilderList() {
         if (propertiesBuilder_ != null) {
           return propertiesBuilder_.getMessageOrBuilderList();
@@ -10637,12 +10637,12 @@ public final class Api {
        *
        * <code>repeated .v1beta1.DeviceProperty properties = 3;</code>
        */
-      public java.util.List<dmi.v1beta1.Api.DeviceProperty.Builder> 
+      public java.util.List<dmi.v1beta1.Api.DeviceProperty.Builder>
            getPropertiesBuilderList() {
         return getPropertiesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          dmi.v1beta1.Api.DeviceProperty, dmi.v1beta1.Api.DeviceProperty.Builder, dmi.v1beta1.Api.DevicePropertyOrBuilder> 
+          dmi.v1beta1.Api.DeviceProperty, dmi.v1beta1.Api.DeviceProperty.Builder, dmi.v1beta1.Api.DevicePropertyOrBuilder>
           getPropertiesFieldBuilder() {
         if (propertiesBuilder_ == null) {
           propertiesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -11004,7 +11004,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         name_ = s;
@@ -11024,7 +11024,7 @@ public final class Api {
         getNameBytes() {
       java.lang.Object ref = name_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         name_ = b;
@@ -11679,7 +11679,7 @@ public final class Api {
           getNameBytes() {
         java.lang.Object ref = name_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           name_ = b;
@@ -11702,7 +11702,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         name_ = value;
         onChanged();
         return this;
@@ -11716,7 +11716,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearName() {
-        
+
         name_ = getDefaultInstance().getName();
         onChanged();
         return this;
@@ -11736,7 +11736,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         name_ = value;
         onChanged();
         return this;
@@ -11857,7 +11857,7 @@ public final class Api {
        * <code>.v1beta1.TwinProperty desired = 2;</code>
        */
       public dmi.v1beta1.Api.TwinProperty.Builder getDesiredBuilder() {
-        
+
         onChanged();
         return getDesiredFieldBuilder().getBuilder();
       }
@@ -11884,7 +11884,7 @@ public final class Api {
        * <code>.v1beta1.TwinProperty desired = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.TwinProperty, dmi.v1beta1.Api.TwinProperty.Builder, dmi.v1beta1.Api.TwinPropertyOrBuilder> 
+          dmi.v1beta1.Api.TwinProperty, dmi.v1beta1.Api.TwinProperty.Builder, dmi.v1beta1.Api.TwinPropertyOrBuilder>
           getDesiredFieldBuilder() {
         if (desiredBuilder_ == null) {
           desiredBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -12019,7 +12019,7 @@ public final class Api {
        * <code>.v1beta1.VisitorConfig visitors = 3;</code>
        */
       public dmi.v1beta1.Api.VisitorConfig.Builder getVisitorsBuilder() {
-        
+
         onChanged();
         return getVisitorsFieldBuilder().getBuilder();
       }
@@ -12048,7 +12048,7 @@ public final class Api {
        * <code>.v1beta1.VisitorConfig visitors = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.VisitorConfig, dmi.v1beta1.Api.VisitorConfig.Builder, dmi.v1beta1.Api.VisitorConfigOrBuilder> 
+          dmi.v1beta1.Api.VisitorConfig, dmi.v1beta1.Api.VisitorConfig.Builder, dmi.v1beta1.Api.VisitorConfigOrBuilder>
           getVisitorsFieldBuilder() {
         if (visitorsBuilder_ == null) {
           visitorsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -12084,7 +12084,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder setReportCycle(long value) {
-        
+
         reportCycle_ = value;
         onChanged();
         return this;
@@ -12098,7 +12098,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearReportCycle() {
-        
+
         reportCycle_ = 0L;
         onChanged();
         return this;
@@ -12127,7 +12127,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder setCollectCycle(long value) {
-        
+
         collectCycle_ = value;
         onChanged();
         return this;
@@ -12141,7 +12141,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearCollectCycle() {
-        
+
         collectCycle_ = 0L;
         onChanged();
         return this;
@@ -12170,7 +12170,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder setReportToCloud(boolean value) {
-        
+
         reportToCloud_ = value;
         onChanged();
         return this;
@@ -12184,7 +12184,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearReportToCloud() {
-        
+
         reportToCloud_ = false;
         onChanged();
         return this;
@@ -12305,7 +12305,7 @@ public final class Api {
        * <code>.v1beta1.PushMethod pushMethod = 7;</code>
        */
       public dmi.v1beta1.Api.PushMethod.Builder getPushMethodBuilder() {
-        
+
         onChanged();
         return getPushMethodFieldBuilder().getBuilder();
       }
@@ -12332,7 +12332,7 @@ public final class Api {
        * <code>.v1beta1.PushMethod pushMethod = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.PushMethod, dmi.v1beta1.Api.PushMethod.Builder, dmi.v1beta1.Api.PushMethodOrBuilder> 
+          dmi.v1beta1.Api.PushMethod, dmi.v1beta1.Api.PushMethod.Builder, dmi.v1beta1.Api.PushMethodOrBuilder>
           getPushMethodFieldBuilder() {
         if (pushMethodBuilder_ == null) {
           pushMethodBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -12565,7 +12565,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         protocolName_ = s;
@@ -12585,7 +12585,7 @@ public final class Api {
         getProtocolNameBytes() {
       java.lang.Object ref = protocolName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         protocolName_ = b;
@@ -13002,7 +13002,7 @@ public final class Api {
           getProtocolNameBytes() {
         java.lang.Object ref = protocolName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           protocolName_ = b;
@@ -13025,7 +13025,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         protocolName_ = value;
         onChanged();
         return this;
@@ -13039,7 +13039,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearProtocolName() {
-        
+
         protocolName_ = getDefaultInstance().getProtocolName();
         onChanged();
         return this;
@@ -13059,7 +13059,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         protocolName_ = value;
         onChanged();
         return this;
@@ -13180,7 +13180,7 @@ public final class Api {
        * <code>.v1beta1.CustomizedValue configData = 2;</code>
        */
       public dmi.v1beta1.Api.CustomizedValue.Builder getConfigDataBuilder() {
-        
+
         onChanged();
         return getConfigDataFieldBuilder().getBuilder();
       }
@@ -13207,7 +13207,7 @@ public final class Api {
        * <code>.v1beta1.CustomizedValue configData = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.CustomizedValue, dmi.v1beta1.Api.CustomizedValue.Builder, dmi.v1beta1.Api.CustomizedValueOrBuilder> 
+          dmi.v1beta1.Api.CustomizedValue, dmi.v1beta1.Api.CustomizedValue.Builder, dmi.v1beta1.Api.CustomizedValueOrBuilder>
           getConfigDataFieldBuilder() {
         if (configDataBuilder_ == null) {
           configDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -13440,7 +13440,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         protocolName_ = s;
@@ -13460,7 +13460,7 @@ public final class Api {
         getProtocolNameBytes() {
       java.lang.Object ref = protocolName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         protocolName_ = b;
@@ -13877,7 +13877,7 @@ public final class Api {
           getProtocolNameBytes() {
         java.lang.Object ref = protocolName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           protocolName_ = b;
@@ -13900,7 +13900,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         protocolName_ = value;
         onChanged();
         return this;
@@ -13914,7 +13914,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearProtocolName() {
-        
+
         protocolName_ = getDefaultInstance().getProtocolName();
         onChanged();
         return this;
@@ -13934,7 +13934,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         protocolName_ = value;
         onChanged();
         return this;
@@ -14055,7 +14055,7 @@ public final class Api {
        * <code>.v1beta1.CustomizedValue configData = 2;</code>
        */
       public dmi.v1beta1.Api.CustomizedValue.Builder getConfigDataBuilder() {
-        
+
         onChanged();
         return getConfigDataFieldBuilder().getBuilder();
       }
@@ -14082,7 +14082,7 @@ public final class Api {
        * <code>.v1beta1.CustomizedValue configData = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.CustomizedValue, dmi.v1beta1.Api.CustomizedValue.Builder, dmi.v1beta1.Api.CustomizedValueOrBuilder> 
+          dmi.v1beta1.Api.CustomizedValue, dmi.v1beta1.Api.CustomizedValue.Builder, dmi.v1beta1.Api.CustomizedValueOrBuilder>
           getConfigDataFieldBuilder() {
         if (configDataBuilder_ == null) {
           configDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -14318,7 +14318,7 @@ public final class Api {
           java.lang.String, com.google.protobuf.Any> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, com.google.protobuf.Any>newDefaultInstance(
-                  dmi.v1beta1.Api.internal_static_v1beta1_CustomizedValue_DataEntry_descriptor, 
+                  dmi.v1beta1.Api.internal_static_v1beta1_CustomizedValue_DataEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -15665,7 +15665,7 @@ public final class Api {
        * <code>.v1beta1.PushMethodHTTP http = 1;</code>
        */
       public dmi.v1beta1.Api.PushMethodHTTP.Builder getHttpBuilder() {
-        
+
         onChanged();
         return getHttpFieldBuilder().getBuilder();
       }
@@ -15684,7 +15684,7 @@ public final class Api {
        * <code>.v1beta1.PushMethodHTTP http = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.PushMethodHTTP, dmi.v1beta1.Api.PushMethodHTTP.Builder, dmi.v1beta1.Api.PushMethodHTTPOrBuilder> 
+          dmi.v1beta1.Api.PushMethodHTTP, dmi.v1beta1.Api.PushMethodHTTP.Builder, dmi.v1beta1.Api.PushMethodHTTPOrBuilder>
           getHttpFieldBuilder() {
         if (httpBuilder_ == null) {
           httpBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -15784,7 +15784,7 @@ public final class Api {
        * <code>.v1beta1.PushMethodMQTT mqtt = 2;</code>
        */
       public dmi.v1beta1.Api.PushMethodMQTT.Builder getMqttBuilder() {
-        
+
         onChanged();
         return getMqttFieldBuilder().getBuilder();
       }
@@ -15803,7 +15803,7 @@ public final class Api {
        * <code>.v1beta1.PushMethodMQTT mqtt = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.PushMethodMQTT, dmi.v1beta1.Api.PushMethodMQTT.Builder, dmi.v1beta1.Api.PushMethodMQTTOrBuilder> 
+          dmi.v1beta1.Api.PushMethodMQTT, dmi.v1beta1.Api.PushMethodMQTT.Builder, dmi.v1beta1.Api.PushMethodMQTTOrBuilder>
           getMqttFieldBuilder() {
         if (mqttBuilder_ == null) {
           mqttBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -15903,7 +15903,7 @@ public final class Api {
        * <code>.v1beta1.DBMethod dbMethod = 3;</code>
        */
       public dmi.v1beta1.Api.DBMethod.Builder getDbMethodBuilder() {
-        
+
         onChanged();
         return getDbMethodFieldBuilder().getBuilder();
       }
@@ -15922,7 +15922,7 @@ public final class Api {
        * <code>.v1beta1.DBMethod dbMethod = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.DBMethod, dmi.v1beta1.Api.DBMethod.Builder, dmi.v1beta1.Api.DBMethodOrBuilder> 
+          dmi.v1beta1.Api.DBMethod, dmi.v1beta1.Api.DBMethod.Builder, dmi.v1beta1.Api.DBMethodOrBuilder>
           getDbMethodFieldBuilder() {
         if (dbMethodBuilder_ == null) {
           dbMethodBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -16140,7 +16140,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         hostname_ = s;
@@ -16156,7 +16156,7 @@ public final class Api {
         getHostnameBytes() {
       java.lang.Object ref = hostname_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         hostname_ = b;
@@ -16189,7 +16189,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         requestpath_ = s;
@@ -16205,7 +16205,7 @@ public final class Api {
         getRequestpathBytes() {
       java.lang.Object ref = requestpath_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         requestpath_ = b;
@@ -16606,7 +16606,7 @@ public final class Api {
           getHostnameBytes() {
         java.lang.Object ref = hostname_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           hostname_ = b;
@@ -16625,7 +16625,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         hostname_ = value;
         onChanged();
         return this;
@@ -16635,7 +16635,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearHostname() {
-        
+
         hostname_ = getDefaultInstance().getHostname();
         onChanged();
         return this;
@@ -16651,7 +16651,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         hostname_ = value;
         onChanged();
         return this;
@@ -16672,7 +16672,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder setPort(long value) {
-        
+
         port_ = value;
         onChanged();
         return this;
@@ -16682,7 +16682,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearPort() {
-        
+
         port_ = 0L;
         onChanged();
         return this;
@@ -16713,7 +16713,7 @@ public final class Api {
           getRequestpathBytes() {
         java.lang.Object ref = requestpath_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           requestpath_ = b;
@@ -16732,7 +16732,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         requestpath_ = value;
         onChanged();
         return this;
@@ -16742,7 +16742,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearRequestpath() {
-        
+
         requestpath_ = getDefaultInstance().getRequestpath();
         onChanged();
         return this;
@@ -16758,7 +16758,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         requestpath_ = value;
         onChanged();
         return this;
@@ -16779,7 +16779,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder setTimeout(long value) {
-        
+
         timeout_ = value;
         onChanged();
         return this;
@@ -16789,7 +16789,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearTimeout() {
-        
+
         timeout_ = 0L;
         onChanged();
         return this;
@@ -17028,7 +17028,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         address_ = s;
@@ -17048,7 +17048,7 @@ public final class Api {
         getAddressBytes() {
       java.lang.Object ref = address_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         address_ = b;
@@ -17074,7 +17074,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         topic_ = s;
@@ -17094,7 +17094,7 @@ public final class Api {
         getTopicBytes() {
       java.lang.Object ref = topic_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         topic_ = b;
@@ -17521,7 +17521,7 @@ public final class Api {
           getAddressBytes() {
         java.lang.Object ref = address_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           address_ = b;
@@ -17544,7 +17544,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         address_ = value;
         onChanged();
         return this;
@@ -17558,7 +17558,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearAddress() {
-        
+
         address_ = getDefaultInstance().getAddress();
         onChanged();
         return this;
@@ -17578,7 +17578,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         address_ = value;
         onChanged();
         return this;
@@ -17617,7 +17617,7 @@ public final class Api {
           getTopicBytes() {
         java.lang.Object ref = topic_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           topic_ = b;
@@ -17640,7 +17640,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         topic_ = value;
         onChanged();
         return this;
@@ -17654,7 +17654,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearTopic() {
-        
+
         topic_ = getDefaultInstance().getTopic();
         onChanged();
         return this;
@@ -17674,7 +17674,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         topic_ = value;
         onChanged();
         return this;
@@ -17703,7 +17703,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder setQos(int value) {
-        
+
         qos_ = value;
         onChanged();
         return this;
@@ -17717,7 +17717,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearQos() {
-        
+
         qos_ = 0;
         onChanged();
         return this;
@@ -17746,7 +17746,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder setRetained(boolean value) {
-        
+
         retained_ = value;
         onChanged();
         return this;
@@ -17760,7 +17760,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearRetained() {
-        
+
         retained_ = false;
         onChanged();
         return this;
@@ -18659,7 +18659,7 @@ public final class Api {
        * <code>.v1beta1.DBMethodInfluxdb2 influxdb2 = 1;</code>
        */
       public dmi.v1beta1.Api.DBMethodInfluxdb2.Builder getInfluxdb2Builder() {
-        
+
         onChanged();
         return getInfluxdb2FieldBuilder().getBuilder();
       }
@@ -18686,7 +18686,7 @@ public final class Api {
        * <code>.v1beta1.DBMethodInfluxdb2 influxdb2 = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.DBMethodInfluxdb2, dmi.v1beta1.Api.DBMethodInfluxdb2.Builder, dmi.v1beta1.Api.DBMethodInfluxdb2OrBuilder> 
+          dmi.v1beta1.Api.DBMethodInfluxdb2, dmi.v1beta1.Api.DBMethodInfluxdb2.Builder, dmi.v1beta1.Api.DBMethodInfluxdb2OrBuilder>
           getInfluxdb2FieldBuilder() {
         if (influxdb2Builder_ == null) {
           influxdb2Builder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -18786,7 +18786,7 @@ public final class Api {
        * <code>.v1beta1.DBMethodRedis redis = 2;</code>
        */
       public dmi.v1beta1.Api.DBMethodRedis.Builder getRedisBuilder() {
-        
+
         onChanged();
         return getRedisFieldBuilder().getBuilder();
       }
@@ -18805,7 +18805,7 @@ public final class Api {
        * <code>.v1beta1.DBMethodRedis redis = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.DBMethodRedis, dmi.v1beta1.Api.DBMethodRedis.Builder, dmi.v1beta1.Api.DBMethodRedisOrBuilder> 
+          dmi.v1beta1.Api.DBMethodRedis, dmi.v1beta1.Api.DBMethodRedis.Builder, dmi.v1beta1.Api.DBMethodRedisOrBuilder>
           getRedisFieldBuilder() {
         if (redisBuilder_ == null) {
           redisBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -18905,7 +18905,7 @@ public final class Api {
        * <code>.v1beta1.DBMethodTDEngine tdengine = 3;</code>
        */
       public dmi.v1beta1.Api.DBMethodTDEngine.Builder getTdengineBuilder() {
-        
+
         onChanged();
         return getTdengineFieldBuilder().getBuilder();
       }
@@ -18924,7 +18924,7 @@ public final class Api {
        * <code>.v1beta1.DBMethodTDEngine tdengine = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.DBMethodTDEngine, dmi.v1beta1.Api.DBMethodTDEngine.Builder, dmi.v1beta1.Api.DBMethodTDEngineOrBuilder> 
+          dmi.v1beta1.Api.DBMethodTDEngine, dmi.v1beta1.Api.DBMethodTDEngine.Builder, dmi.v1beta1.Api.DBMethodTDEngineOrBuilder>
           getTdengineFieldBuilder() {
         if (tdengineBuilder_ == null) {
           tdengineBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -19024,7 +19024,7 @@ public final class Api {
        * <code>.v1beta1.DBMethodMySQL mysql = 4;</code>
        */
       public dmi.v1beta1.Api.DBMethodMySQL.Builder getMysqlBuilder() {
-        
+
         onChanged();
         return getMysqlFieldBuilder().getBuilder();
       }
@@ -19043,7 +19043,7 @@ public final class Api {
        * <code>.v1beta1.DBMethodMySQL mysql = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.DBMethodMySQL, dmi.v1beta1.Api.DBMethodMySQL.Builder, dmi.v1beta1.Api.DBMethodMySQLOrBuilder> 
+          dmi.v1beta1.Api.DBMethodMySQL, dmi.v1beta1.Api.DBMethodMySQL.Builder, dmi.v1beta1.Api.DBMethodMySQLOrBuilder>
           getMysqlFieldBuilder() {
         if (mysqlBuilder_ == null) {
           mysqlBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -19781,7 +19781,7 @@ public final class Api {
        * <code>.v1beta1.Influxdb2ClientConfig influxdb2ClientConfig = 1;</code>
        */
       public dmi.v1beta1.Api.Influxdb2ClientConfig.Builder getInfluxdb2ClientConfigBuilder() {
-        
+
         onChanged();
         return getInfluxdb2ClientConfigFieldBuilder().getBuilder();
       }
@@ -19808,7 +19808,7 @@ public final class Api {
        * <code>.v1beta1.Influxdb2ClientConfig influxdb2ClientConfig = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.Influxdb2ClientConfig, dmi.v1beta1.Api.Influxdb2ClientConfig.Builder, dmi.v1beta1.Api.Influxdb2ClientConfigOrBuilder> 
+          dmi.v1beta1.Api.Influxdb2ClientConfig, dmi.v1beta1.Api.Influxdb2ClientConfig.Builder, dmi.v1beta1.Api.Influxdb2ClientConfigOrBuilder>
           getInfluxdb2ClientConfigFieldBuilder() {
         if (influxdb2ClientConfigBuilder_ == null) {
           influxdb2ClientConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -19908,7 +19908,7 @@ public final class Api {
        * <code>.v1beta1.Influxdb2DataConfig influxdb2DataConfig = 2;</code>
        */
       public dmi.v1beta1.Api.Influxdb2DataConfig.Builder getInfluxdb2DataConfigBuilder() {
-        
+
         onChanged();
         return getInfluxdb2DataConfigFieldBuilder().getBuilder();
       }
@@ -19927,7 +19927,7 @@ public final class Api {
        * <code>.v1beta1.Influxdb2DataConfig influxdb2DataConfig = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.Influxdb2DataConfig, dmi.v1beta1.Api.Influxdb2DataConfig.Builder, dmi.v1beta1.Api.Influxdb2DataConfigOrBuilder> 
+          dmi.v1beta1.Api.Influxdb2DataConfig, dmi.v1beta1.Api.Influxdb2DataConfig.Builder, dmi.v1beta1.Api.Influxdb2DataConfigOrBuilder>
           getInfluxdb2DataConfigFieldBuilder() {
         if (influxdb2DataConfigBuilder_ == null) {
           influxdb2DataConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -20195,7 +20195,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         measurement_ = s;
@@ -20215,7 +20215,7 @@ public final class Api {
         getMeasurementBytes() {
       java.lang.Object ref = measurement_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         measurement_ = b;
@@ -20231,7 +20231,7 @@ public final class Api {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  dmi.v1beta1.Api.internal_static_v1beta1_Influxdb2DataConfig_TagEntry_descriptor, 
+                  dmi.v1beta1.Api.internal_static_v1beta1_Influxdb2DataConfig_TagEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -20318,7 +20318,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         fieldKey_ = s;
@@ -20334,7 +20334,7 @@ public final class Api {
         getFieldKeyBytes() {
       java.lang.Object ref = fieldKey_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         fieldKey_ = b;
@@ -20747,7 +20747,7 @@ public final class Api {
           getMeasurementBytes() {
         java.lang.Object ref = measurement_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           measurement_ = b;
@@ -20770,7 +20770,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         measurement_ = value;
         onChanged();
         return this;
@@ -20784,7 +20784,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearMeasurement() {
-        
+
         measurement_ = getDefaultInstance().getMeasurement();
         onChanged();
         return this;
@@ -20804,7 +20804,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         measurement_ = value;
         onChanged();
         return this;
@@ -20966,7 +20966,7 @@ public final class Api {
           getFieldKeyBytes() {
         java.lang.Object ref = fieldKey_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           fieldKey_ = b;
@@ -20985,7 +20985,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         fieldKey_ = value;
         onChanged();
         return this;
@@ -20995,7 +20995,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearFieldKey() {
-        
+
         fieldKey_ = getDefaultInstance().getFieldKey();
         onChanged();
         return this;
@@ -21011,7 +21011,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         fieldKey_ = value;
         onChanged();
         return this;
@@ -21247,7 +21247,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         url_ = s;
@@ -21267,7 +21267,7 @@ public final class Api {
         getUrlBytes() {
       java.lang.Object ref = url_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         url_ = b;
@@ -21293,7 +21293,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         org_ = s;
@@ -21313,7 +21313,7 @@ public final class Api {
         getOrgBytes() {
       java.lang.Object ref = org_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         org_ = b;
@@ -21339,7 +21339,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         bucket_ = s;
@@ -21359,7 +21359,7 @@ public final class Api {
         getBucketBytes() {
       java.lang.Object ref = bucket_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         bucket_ = b;
@@ -21738,7 +21738,7 @@ public final class Api {
           getUrlBytes() {
         java.lang.Object ref = url_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           url_ = b;
@@ -21761,7 +21761,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         url_ = value;
         onChanged();
         return this;
@@ -21775,7 +21775,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearUrl() {
-        
+
         url_ = getDefaultInstance().getUrl();
         onChanged();
         return this;
@@ -21795,7 +21795,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         url_ = value;
         onChanged();
         return this;
@@ -21834,7 +21834,7 @@ public final class Api {
           getOrgBytes() {
         java.lang.Object ref = org_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           org_ = b;
@@ -21857,7 +21857,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         org_ = value;
         onChanged();
         return this;
@@ -21871,7 +21871,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearOrg() {
-        
+
         org_ = getDefaultInstance().getOrg();
         onChanged();
         return this;
@@ -21891,7 +21891,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         org_ = value;
         onChanged();
         return this;
@@ -21930,7 +21930,7 @@ public final class Api {
           getBucketBytes() {
         java.lang.Object ref = bucket_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           bucket_ = b;
@@ -21953,7 +21953,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         bucket_ = value;
         onChanged();
         return this;
@@ -21967,7 +21967,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearBucket() {
-        
+
         bucket_ = getDefaultInstance().getBucket();
         onChanged();
         return this;
@@ -21987,7 +21987,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         bucket_ = value;
         onChanged();
         return this;
@@ -22634,7 +22634,7 @@ public final class Api {
        * <code>.v1beta1.RedisClientConfig redisClientConfig = 1;</code>
        */
       public dmi.v1beta1.Api.RedisClientConfig.Builder getRedisClientConfigBuilder() {
-        
+
         onChanged();
         return getRedisClientConfigFieldBuilder().getBuilder();
       }
@@ -22661,7 +22661,7 @@ public final class Api {
        * <code>.v1beta1.RedisClientConfig redisClientConfig = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.RedisClientConfig, dmi.v1beta1.Api.RedisClientConfig.Builder, dmi.v1beta1.Api.RedisClientConfigOrBuilder> 
+          dmi.v1beta1.Api.RedisClientConfig, dmi.v1beta1.Api.RedisClientConfig.Builder, dmi.v1beta1.Api.RedisClientConfigOrBuilder>
           getRedisClientConfigFieldBuilder() {
         if (redisClientConfigBuilder_ == null) {
           redisClientConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -22895,7 +22895,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         addr_ = s;
@@ -22915,7 +22915,7 @@ public final class Api {
         getAddrBytes() {
       java.lang.Object ref = addr_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         addr_ = b;
@@ -23356,7 +23356,7 @@ public final class Api {
           getAddrBytes() {
         java.lang.Object ref = addr_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           addr_ = b;
@@ -23379,7 +23379,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         addr_ = value;
         onChanged();
         return this;
@@ -23393,7 +23393,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearAddr() {
-        
+
         addr_ = getDefaultInstance().getAddr();
         onChanged();
         return this;
@@ -23413,7 +23413,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         addr_ = value;
         onChanged();
         return this;
@@ -23442,7 +23442,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder setDb(int value) {
-        
+
         db_ = value;
         onChanged();
         return this;
@@ -23456,7 +23456,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearDb() {
-        
+
         db_ = 0;
         onChanged();
         return this;
@@ -23485,7 +23485,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder setPoolsize(int value) {
-        
+
         poolsize_ = value;
         onChanged();
         return this;
@@ -23499,7 +23499,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearPoolsize() {
-        
+
         poolsize_ = 0;
         onChanged();
         return this;
@@ -23528,7 +23528,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder setMinIdleConns(int value) {
-        
+
         minIdleConns_ = value;
         onChanged();
         return this;
@@ -23542,7 +23542,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearMinIdleConns() {
-        
+
         minIdleConns_ = 0;
         onChanged();
         return this;
@@ -24189,7 +24189,7 @@ public final class Api {
        * <code>.v1beta1.TDEngineClientConfig tdEngineClientConfig = 1;</code>
        */
       public dmi.v1beta1.Api.TDEngineClientConfig.Builder getTdEngineClientConfigBuilder() {
-        
+
         onChanged();
         return getTdEngineClientConfigFieldBuilder().getBuilder();
       }
@@ -24216,7 +24216,7 @@ public final class Api {
        * <code>.v1beta1.TDEngineClientConfig tdEngineClientConfig = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.TDEngineClientConfig, dmi.v1beta1.Api.TDEngineClientConfig.Builder, dmi.v1beta1.Api.TDEngineClientConfigOrBuilder> 
+          dmi.v1beta1.Api.TDEngineClientConfig, dmi.v1beta1.Api.TDEngineClientConfig.Builder, dmi.v1beta1.Api.TDEngineClientConfigOrBuilder>
           getTdEngineClientConfigFieldBuilder() {
         if (tdEngineClientConfigBuilder_ == null) {
           tdEngineClientConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -24432,7 +24432,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         addr_ = s;
@@ -24452,7 +24452,7 @@ public final class Api {
         getAddrBytes() {
       java.lang.Object ref = addr_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         addr_ = b;
@@ -24478,7 +24478,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         dbname_ = s;
@@ -24498,7 +24498,7 @@ public final class Api {
         getDbnameBytes() {
       java.lang.Object ref = dbname_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         dbname_ = b;
@@ -24860,7 +24860,7 @@ public final class Api {
           getAddrBytes() {
         java.lang.Object ref = addr_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           addr_ = b;
@@ -24883,7 +24883,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         addr_ = value;
         onChanged();
         return this;
@@ -24897,7 +24897,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearAddr() {
-        
+
         addr_ = getDefaultInstance().getAddr();
         onChanged();
         return this;
@@ -24917,7 +24917,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         addr_ = value;
         onChanged();
         return this;
@@ -24956,7 +24956,7 @@ public final class Api {
           getDbnameBytes() {
         java.lang.Object ref = dbname_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           dbname_ = b;
@@ -24979,7 +24979,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         dbname_ = value;
         onChanged();
         return this;
@@ -24993,7 +24993,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearDbname() {
-        
+
         dbname_ = getDefaultInstance().getDbname();
         onChanged();
         return this;
@@ -25013,7 +25013,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         dbname_ = value;
         onChanged();
         return this;
@@ -25608,7 +25608,7 @@ public final class Api {
        * <code>.v1beta1.MySQLClientConfig mysqlClientConfig = 1;</code>
        */
       public dmi.v1beta1.Api.MySQLClientConfig.Builder getMysqlClientConfigBuilder() {
-        
+
         onChanged();
         return getMysqlClientConfigFieldBuilder().getBuilder();
       }
@@ -25627,7 +25627,7 @@ public final class Api {
        * <code>.v1beta1.MySQLClientConfig mysqlClientConfig = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.MySQLClientConfig, dmi.v1beta1.Api.MySQLClientConfig.Builder, dmi.v1beta1.Api.MySQLClientConfigOrBuilder> 
+          dmi.v1beta1.Api.MySQLClientConfig, dmi.v1beta1.Api.MySQLClientConfig.Builder, dmi.v1beta1.Api.MySQLClientConfigOrBuilder>
           getMysqlClientConfigFieldBuilder() {
         if (mysqlClientConfigBuilder_ == null) {
           mysqlClientConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -25870,7 +25870,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         addr_ = s;
@@ -25890,7 +25890,7 @@ public final class Api {
         getAddrBytes() {
       java.lang.Object ref = addr_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         addr_ = b;
@@ -25916,7 +25916,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         database_ = s;
@@ -25936,7 +25936,7 @@ public final class Api {
         getDatabaseBytes() {
       java.lang.Object ref = database_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         database_ = b;
@@ -25962,7 +25962,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         userName_ = s;
@@ -25982,7 +25982,7 @@ public final class Api {
         getUserNameBytes() {
       java.lang.Object ref = userName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         userName_ = b;
@@ -26361,7 +26361,7 @@ public final class Api {
           getAddrBytes() {
         java.lang.Object ref = addr_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           addr_ = b;
@@ -26384,7 +26384,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         addr_ = value;
         onChanged();
         return this;
@@ -26398,7 +26398,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearAddr() {
-        
+
         addr_ = getDefaultInstance().getAddr();
         onChanged();
         return this;
@@ -26418,7 +26418,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         addr_ = value;
         onChanged();
         return this;
@@ -26457,7 +26457,7 @@ public final class Api {
           getDatabaseBytes() {
         java.lang.Object ref = database_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           database_ = b;
@@ -26480,7 +26480,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         database_ = value;
         onChanged();
         return this;
@@ -26494,7 +26494,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearDatabase() {
-        
+
         database_ = getDefaultInstance().getDatabase();
         onChanged();
         return this;
@@ -26514,7 +26514,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         database_ = value;
         onChanged();
         return this;
@@ -26553,7 +26553,7 @@ public final class Api {
           getUserNameBytes() {
         java.lang.Object ref = userName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           userName_ = b;
@@ -26576,7 +26576,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         userName_ = value;
         onChanged();
         return this;
@@ -26590,7 +26590,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearUserName() {
-        
+
         userName_ = getDefaultInstance().getUserName();
         onChanged();
         return this;
@@ -26610,7 +26610,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         userName_ = value;
         onChanged();
         return this;
@@ -26920,7 +26920,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         name_ = s;
@@ -26940,7 +26940,7 @@ public final class Api {
         getNameBytes() {
       java.lang.Object ref = name_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         name_ = b;
@@ -26966,7 +26966,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         version_ = s;
@@ -26986,7 +26986,7 @@ public final class Api {
         getVersionBytes() {
       java.lang.Object ref = version_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         version_ = b;
@@ -27012,7 +27012,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         apiVersion_ = s;
@@ -27032,7 +27032,7 @@ public final class Api {
         getApiVersionBytes() {
       java.lang.Object ref = apiVersion_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         apiVersion_ = b;
@@ -27058,7 +27058,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         protocol_ = s;
@@ -27078,7 +27078,7 @@ public final class Api {
         getProtocolBytes() {
       java.lang.Object ref = protocol_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         protocol_ = b;
@@ -27119,7 +27119,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         state_ = s;
@@ -27139,7 +27139,7 @@ public final class Api {
         getStateBytes() {
       java.lang.Object ref = state_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         state_ = b;
@@ -27573,7 +27573,7 @@ public final class Api {
           getNameBytes() {
         java.lang.Object ref = name_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           name_ = b;
@@ -27596,7 +27596,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         name_ = value;
         onChanged();
         return this;
@@ -27610,7 +27610,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearName() {
-        
+
         name_ = getDefaultInstance().getName();
         onChanged();
         return this;
@@ -27630,7 +27630,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         name_ = value;
         onChanged();
         return this;
@@ -27669,7 +27669,7 @@ public final class Api {
           getVersionBytes() {
         java.lang.Object ref = version_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           version_ = b;
@@ -27692,7 +27692,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         version_ = value;
         onChanged();
         return this;
@@ -27706,7 +27706,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearVersion() {
-        
+
         version_ = getDefaultInstance().getVersion();
         onChanged();
         return this;
@@ -27726,7 +27726,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         version_ = value;
         onChanged();
         return this;
@@ -27765,7 +27765,7 @@ public final class Api {
           getApiVersionBytes() {
         java.lang.Object ref = apiVersion_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           apiVersion_ = b;
@@ -27788,7 +27788,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         apiVersion_ = value;
         onChanged();
         return this;
@@ -27802,7 +27802,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearApiVersion() {
-        
+
         apiVersion_ = getDefaultInstance().getApiVersion();
         onChanged();
         return this;
@@ -27822,7 +27822,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         apiVersion_ = value;
         onChanged();
         return this;
@@ -27861,7 +27861,7 @@ public final class Api {
           getProtocolBytes() {
         java.lang.Object ref = protocol_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           protocol_ = b;
@@ -27884,7 +27884,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         protocol_ = value;
         onChanged();
         return this;
@@ -27898,7 +27898,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearProtocol() {
-        
+
         protocol_ = getDefaultInstance().getProtocol();
         onChanged();
         return this;
@@ -27918,7 +27918,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         protocol_ = value;
         onChanged();
         return this;
@@ -27950,7 +27950,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         address_ = value;
         onChanged();
         return this;
@@ -27964,7 +27964,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearAddress() {
-        
+
         address_ = getDefaultInstance().getAddress();
         onChanged();
         return this;
@@ -28003,7 +28003,7 @@ public final class Api {
           getStateBytes() {
         java.lang.Object ref = state_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           state_ = b;
@@ -28026,7 +28026,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         state_ = value;
         onChanged();
         return this;
@@ -28040,7 +28040,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearState() {
-        
+
         state_ = getDefaultInstance().getState();
         onChanged();
         return this;
@@ -28060,7 +28060,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         state_ = value;
         onChanged();
         return this;
@@ -28277,7 +28277,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         deviceName_ = s;
@@ -28293,7 +28293,7 @@ public final class Api {
         getDeviceNameBytes() {
       java.lang.Object ref = deviceName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         deviceName_ = b;
@@ -28341,7 +28341,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         deviceNamespace_ = s;
@@ -28357,7 +28357,7 @@ public final class Api {
         getDeviceNamespaceBytes() {
       java.lang.Object ref = deviceNamespace_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         deviceNamespace_ = b;
@@ -28741,7 +28741,7 @@ public final class Api {
           getDeviceNameBytes() {
         java.lang.Object ref = deviceName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           deviceName_ = b;
@@ -28760,7 +28760,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         deviceName_ = value;
         onChanged();
         return this;
@@ -28770,7 +28770,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearDeviceName() {
-        
+
         deviceName_ = getDefaultInstance().getDeviceName();
         onChanged();
         return this;
@@ -28786,7 +28786,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         deviceName_ = value;
         onChanged();
         return this;
@@ -28879,7 +28879,7 @@ public final class Api {
        * <code>.v1beta1.DeviceStatus reportedDevice = 2;</code>
        */
       public dmi.v1beta1.Api.DeviceStatus.Builder getReportedDeviceBuilder() {
-        
+
         onChanged();
         return getReportedDeviceFieldBuilder().getBuilder();
       }
@@ -28898,7 +28898,7 @@ public final class Api {
        * <code>.v1beta1.DeviceStatus reportedDevice = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.DeviceStatus, dmi.v1beta1.Api.DeviceStatus.Builder, dmi.v1beta1.Api.DeviceStatusOrBuilder> 
+          dmi.v1beta1.Api.DeviceStatus, dmi.v1beta1.Api.DeviceStatus.Builder, dmi.v1beta1.Api.DeviceStatusOrBuilder>
           getReportedDeviceFieldBuilder() {
         if (reportedDeviceBuilder_ == null) {
           reportedDeviceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -28936,7 +28936,7 @@ public final class Api {
           getDeviceNamespaceBytes() {
         java.lang.Object ref = deviceNamespace_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           deviceNamespace_ = b;
@@ -28955,7 +28955,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         deviceNamespace_ = value;
         onChanged();
         return this;
@@ -28965,7 +28965,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearDeviceNamespace() {
-        
+
         deviceNamespace_ = getDefaultInstance().getDeviceNamespace();
         onChanged();
         return this;
@@ -28981,7 +28981,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         deviceNamespace_ = value;
         onChanged();
         return this;
@@ -29189,7 +29189,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         deviceName_ = s;
@@ -29205,7 +29205,7 @@ public final class Api {
         getDeviceNameBytes() {
       java.lang.Object ref = deviceName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         deviceName_ = b;
@@ -29227,7 +29227,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         deviceNamespace_ = s;
@@ -29243,7 +29243,7 @@ public final class Api {
         getDeviceNamespaceBytes() {
       java.lang.Object ref = deviceNamespace_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         deviceNamespace_ = b;
@@ -29265,7 +29265,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         state_ = s;
@@ -29281,7 +29281,7 @@ public final class Api {
         getStateBytes() {
       java.lang.Object ref = state_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         state_ = b;
@@ -29652,7 +29652,7 @@ public final class Api {
           getDeviceNameBytes() {
         java.lang.Object ref = deviceName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           deviceName_ = b;
@@ -29671,7 +29671,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         deviceName_ = value;
         onChanged();
         return this;
@@ -29681,7 +29681,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearDeviceName() {
-        
+
         deviceName_ = getDefaultInstance().getDeviceName();
         onChanged();
         return this;
@@ -29697,7 +29697,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         deviceName_ = value;
         onChanged();
         return this;
@@ -29728,7 +29728,7 @@ public final class Api {
           getDeviceNamespaceBytes() {
         java.lang.Object ref = deviceNamespace_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           deviceNamespace_ = b;
@@ -29747,7 +29747,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         deviceNamespace_ = value;
         onChanged();
         return this;
@@ -29757,7 +29757,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearDeviceNamespace() {
-        
+
         deviceNamespace_ = getDefaultInstance().getDeviceNamespace();
         onChanged();
         return this;
@@ -29773,7 +29773,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         deviceNamespace_ = value;
         onChanged();
         return this;
@@ -29804,7 +29804,7 @@ public final class Api {
           getStateBytes() {
         java.lang.Object ref = state_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           state_ = b;
@@ -29823,7 +29823,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         state_ = value;
         onChanged();
         return this;
@@ -29833,7 +29833,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearState() {
-        
+
         state_ = getDefaultInstance().getState();
         onChanged();
         return this;
@@ -29849,7 +29849,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         state_ = value;
         onChanged();
         return this;
@@ -29918,7 +29918,7 @@ public final class Api {
      *
      * <code>repeated .v1beta1.Twin twins = 1;</code>
      */
-    java.util.List<dmi.v1beta1.Api.Twin> 
+    java.util.List<dmi.v1beta1.Api.Twin>
         getTwinsList();
     /**
      * <pre>
@@ -29943,7 +29943,7 @@ public final class Api {
      *
      * <code>repeated .v1beta1.Twin twins = 1;</code>
      */
-    java.util.List<? extends dmi.v1beta1.Api.TwinOrBuilder> 
+    java.util.List<? extends dmi.v1beta1.Api.TwinOrBuilder>
         getTwinsOrBuilderList();
     /**
      * <pre>
@@ -30071,7 +30071,7 @@ public final class Api {
      * <code>repeated .v1beta1.Twin twins = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends dmi.v1beta1.Api.TwinOrBuilder> 
+    public java.util.List<? extends dmi.v1beta1.Api.TwinOrBuilder>
         getTwinsOrBuilderList() {
       return twins_;
     }
@@ -30418,7 +30418,7 @@ public final class Api {
               twinsBuilder_ = null;
               twins_ = other.twins_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              twinsBuilder_ = 
+              twinsBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getTwinsFieldBuilder() : null;
             } else {
@@ -30711,7 +30711,7 @@ public final class Api {
        *
        * <code>repeated .v1beta1.Twin twins = 1;</code>
        */
-      public java.util.List<? extends dmi.v1beta1.Api.TwinOrBuilder> 
+      public java.util.List<? extends dmi.v1beta1.Api.TwinOrBuilder>
            getTwinsOrBuilderList() {
         if (twinsBuilder_ != null) {
           return twinsBuilder_.getMessageOrBuilderList();
@@ -30749,12 +30749,12 @@ public final class Api {
        *
        * <code>repeated .v1beta1.Twin twins = 1;</code>
        */
-      public java.util.List<dmi.v1beta1.Api.Twin.Builder> 
+      public java.util.List<dmi.v1beta1.Api.Twin.Builder>
            getTwinsBuilderList() {
         return getTwinsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          dmi.v1beta1.Api.Twin, dmi.v1beta1.Api.Twin.Builder, dmi.v1beta1.Api.TwinOrBuilder> 
+          dmi.v1beta1.Api.Twin, dmi.v1beta1.Api.Twin.Builder, dmi.v1beta1.Api.TwinOrBuilder>
           getTwinsFieldBuilder() {
         if (twinsBuilder_ == null) {
           twinsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -31028,7 +31028,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         propertyName_ = s;
@@ -31048,7 +31048,7 @@ public final class Api {
         getPropertyNameBytes() {
       java.lang.Object ref = propertyName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         propertyName_ = b;
@@ -31533,7 +31533,7 @@ public final class Api {
           getPropertyNameBytes() {
         java.lang.Object ref = propertyName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           propertyName_ = b;
@@ -31556,7 +31556,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         propertyName_ = value;
         onChanged();
         return this;
@@ -31570,7 +31570,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearPropertyName() {
-        
+
         propertyName_ = getDefaultInstance().getPropertyName();
         onChanged();
         return this;
@@ -31590,7 +31590,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         propertyName_ = value;
         onChanged();
         return this;
@@ -31711,7 +31711,7 @@ public final class Api {
        * <code>.v1beta1.TwinProperty observedDesired = 2;</code>
        */
       public dmi.v1beta1.Api.TwinProperty.Builder getObservedDesiredBuilder() {
-        
+
         onChanged();
         return getObservedDesiredFieldBuilder().getBuilder();
       }
@@ -31738,7 +31738,7 @@ public final class Api {
        * <code>.v1beta1.TwinProperty observedDesired = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.TwinProperty, dmi.v1beta1.Api.TwinProperty.Builder, dmi.v1beta1.Api.TwinPropertyOrBuilder> 
+          dmi.v1beta1.Api.TwinProperty, dmi.v1beta1.Api.TwinProperty.Builder, dmi.v1beta1.Api.TwinPropertyOrBuilder>
           getObservedDesiredFieldBuilder() {
         if (observedDesiredBuilder_ == null) {
           observedDesiredBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -31866,7 +31866,7 @@ public final class Api {
        * <code>.v1beta1.TwinProperty reported = 3;</code>
        */
       public dmi.v1beta1.Api.TwinProperty.Builder getReportedBuilder() {
-        
+
         onChanged();
         return getReportedFieldBuilder().getBuilder();
       }
@@ -31893,7 +31893,7 @@ public final class Api {
        * <code>.v1beta1.TwinProperty reported = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.TwinProperty, dmi.v1beta1.Api.TwinProperty.Builder, dmi.v1beta1.Api.TwinPropertyOrBuilder> 
+          dmi.v1beta1.Api.TwinProperty, dmi.v1beta1.Api.TwinProperty.Builder, dmi.v1beta1.Api.TwinPropertyOrBuilder>
           getReportedFieldBuilder() {
         if (reportedBuilder_ == null) {
           reportedBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -32166,7 +32166,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         value_ = s;
@@ -32186,7 +32186,7 @@ public final class Api {
         getValueBytes() {
       java.lang.Object ref = value_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         value_ = b;
@@ -32202,7 +32202,7 @@ public final class Api {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  dmi.v1beta1.Api.internal_static_v1beta1_TwinProperty_MetadataEntry_descriptor, 
+                  dmi.v1beta1.Api.internal_static_v1beta1_TwinProperty_MetadataEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -32683,7 +32683,7 @@ public final class Api {
           getValueBytes() {
         java.lang.Object ref = value_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           value_ = b;
@@ -32706,7 +32706,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         value_ = value;
         onChanged();
         return this;
@@ -32720,7 +32720,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearValue() {
-        
+
         value_ = getDefaultInstance().getValue();
         onChanged();
         return this;
@@ -32740,7 +32740,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         value_ = value;
         onChanged();
         return this;
@@ -34330,7 +34330,7 @@ public final class Api {
        * <code>.v1beta1.Device device = 1;</code>
        */
       public dmi.v1beta1.Api.Device.Builder getDeviceBuilder() {
-        
+
         onChanged();
         return getDeviceFieldBuilder().getBuilder();
       }
@@ -34349,7 +34349,7 @@ public final class Api {
        * <code>.v1beta1.Device device = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.Device, dmi.v1beta1.Api.Device.Builder, dmi.v1beta1.Api.DeviceOrBuilder> 
+          dmi.v1beta1.Api.Device, dmi.v1beta1.Api.Device.Builder, dmi.v1beta1.Api.DeviceOrBuilder>
           getDeviceFieldBuilder() {
         if (deviceBuilder_ == null) {
           deviceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -34545,7 +34545,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         deviceName_ = s;
@@ -34561,7 +34561,7 @@ public final class Api {
         getDeviceNameBytes() {
       java.lang.Object ref = deviceName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         deviceName_ = b;
@@ -34583,7 +34583,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         deviceNamespace_ = s;
@@ -34599,7 +34599,7 @@ public final class Api {
         getDeviceNamespaceBytes() {
       java.lang.Object ref = deviceNamespace_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         deviceNamespace_ = b;
@@ -34953,7 +34953,7 @@ public final class Api {
           getDeviceNameBytes() {
         java.lang.Object ref = deviceName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           deviceName_ = b;
@@ -34972,7 +34972,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         deviceName_ = value;
         onChanged();
         return this;
@@ -34982,7 +34982,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearDeviceName() {
-        
+
         deviceName_ = getDefaultInstance().getDeviceName();
         onChanged();
         return this;
@@ -34998,7 +34998,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         deviceName_ = value;
         onChanged();
         return this;
@@ -35029,7 +35029,7 @@ public final class Api {
           getDeviceNamespaceBytes() {
         java.lang.Object ref = deviceNamespace_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           deviceNamespace_ = b;
@@ -35048,7 +35048,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         deviceNamespace_ = value;
         onChanged();
         return this;
@@ -35058,7 +35058,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearDeviceNamespace() {
-        
+
         deviceNamespace_ = getDefaultInstance().getDeviceNamespace();
         onChanged();
         return this;
@@ -35074,7 +35074,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         deviceNamespace_ = value;
         onChanged();
         return this;
@@ -35669,7 +35669,7 @@ public final class Api {
        * <code>.v1beta1.DeviceModel model = 1;</code>
        */
       public dmi.v1beta1.Api.DeviceModel.Builder getModelBuilder() {
-        
+
         onChanged();
         return getModelFieldBuilder().getBuilder();
       }
@@ -35688,7 +35688,7 @@ public final class Api {
        * <code>.v1beta1.DeviceModel model = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.DeviceModel, dmi.v1beta1.Api.DeviceModel.Builder, dmi.v1beta1.Api.DeviceModelOrBuilder> 
+          dmi.v1beta1.Api.DeviceModel, dmi.v1beta1.Api.DeviceModel.Builder, dmi.v1beta1.Api.DeviceModelOrBuilder>
           getModelFieldBuilder() {
         if (modelBuilder_ == null) {
           modelBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -35884,7 +35884,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         deviceModelName_ = s;
@@ -35900,7 +35900,7 @@ public final class Api {
         getDeviceModelNameBytes() {
       java.lang.Object ref = deviceModelName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         deviceModelName_ = b;
@@ -35922,7 +35922,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         deviceModelNamespace_ = s;
@@ -35938,7 +35938,7 @@ public final class Api {
         getDeviceModelNamespaceBytes() {
       java.lang.Object ref = deviceModelNamespace_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         deviceModelNamespace_ = b;
@@ -36292,7 +36292,7 @@ public final class Api {
           getDeviceModelNameBytes() {
         java.lang.Object ref = deviceModelName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           deviceModelName_ = b;
@@ -36311,7 +36311,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         deviceModelName_ = value;
         onChanged();
         return this;
@@ -36321,7 +36321,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearDeviceModelName() {
-        
+
         deviceModelName_ = getDefaultInstance().getDeviceModelName();
         onChanged();
         return this;
@@ -36337,7 +36337,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         deviceModelName_ = value;
         onChanged();
         return this;
@@ -36368,7 +36368,7 @@ public final class Api {
           getDeviceModelNamespaceBytes() {
         java.lang.Object ref = deviceModelNamespace_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           deviceModelNamespace_ = b;
@@ -36387,7 +36387,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         deviceModelNamespace_ = value;
         onChanged();
         return this;
@@ -36397,7 +36397,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearDeviceModelNamespace() {
-        
+
         deviceModelNamespace_ = getDefaultInstance().getDeviceModelNamespace();
         onChanged();
         return this;
@@ -36413,7 +36413,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         deviceModelNamespace_ = value;
         onChanged();
         return this;
@@ -36602,7 +36602,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         deviceName_ = s;
@@ -36618,7 +36618,7 @@ public final class Api {
         getDeviceNameBytes() {
       java.lang.Object ref = deviceName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         deviceName_ = b;
@@ -36640,7 +36640,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         deviceNamespace_ = s;
@@ -36656,7 +36656,7 @@ public final class Api {
         getDeviceNamespaceBytes() {
       java.lang.Object ref = deviceNamespace_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         deviceNamespace_ = b;
@@ -37010,7 +37010,7 @@ public final class Api {
           getDeviceNameBytes() {
         java.lang.Object ref = deviceName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           deviceName_ = b;
@@ -37029,7 +37029,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         deviceName_ = value;
         onChanged();
         return this;
@@ -37039,7 +37039,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearDeviceName() {
-        
+
         deviceName_ = getDefaultInstance().getDeviceName();
         onChanged();
         return this;
@@ -37055,7 +37055,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         deviceName_ = value;
         onChanged();
         return this;
@@ -37086,7 +37086,7 @@ public final class Api {
           getDeviceNamespaceBytes() {
         java.lang.Object ref = deviceNamespace_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           deviceNamespace_ = b;
@@ -37105,7 +37105,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         deviceNamespace_ = value;
         onChanged();
         return this;
@@ -37115,7 +37115,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearDeviceNamespace() {
-        
+
         deviceNamespace_ = getDefaultInstance().getDeviceNamespace();
         onChanged();
         return this;
@@ -37131,7 +37131,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         deviceNamespace_ = value;
         onChanged();
         return this;
@@ -37738,7 +37738,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         modelName_ = s;
@@ -37754,7 +37754,7 @@ public final class Api {
         getModelNameBytes() {
       java.lang.Object ref = modelName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         modelName_ = b;
@@ -37776,7 +37776,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         modelNamespace_ = s;
@@ -37792,7 +37792,7 @@ public final class Api {
         getModelNamespaceBytes() {
       java.lang.Object ref = modelNamespace_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         modelNamespace_ = b;
@@ -38146,7 +38146,7 @@ public final class Api {
           getModelNameBytes() {
         java.lang.Object ref = modelName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           modelName_ = b;
@@ -38165,7 +38165,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         modelName_ = value;
         onChanged();
         return this;
@@ -38175,7 +38175,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearModelName() {
-        
+
         modelName_ = getDefaultInstance().getModelName();
         onChanged();
         return this;
@@ -38191,7 +38191,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         modelName_ = value;
         onChanged();
         return this;
@@ -38222,7 +38222,7 @@ public final class Api {
           getModelNamespaceBytes() {
         java.lang.Object ref = modelNamespace_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           modelNamespace_ = b;
@@ -38241,7 +38241,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         modelNamespace_ = value;
         onChanged();
         return this;
@@ -38251,7 +38251,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearModelNamespace() {
-        
+
         modelNamespace_ = getDefaultInstance().getModelNamespace();
         onChanged();
         return this;
@@ -38267,7 +38267,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         modelNamespace_ = value;
         onChanged();
         return this;
@@ -39280,7 +39280,7 @@ public final class Api {
        * <code>.v1beta1.Device device = 1;</code>
        */
       public dmi.v1beta1.Api.Device.Builder getDeviceBuilder() {
-        
+
         onChanged();
         return getDeviceFieldBuilder().getBuilder();
       }
@@ -39299,7 +39299,7 @@ public final class Api {
        * <code>.v1beta1.Device device = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.Device, dmi.v1beta1.Api.Device.Builder, dmi.v1beta1.Api.DeviceOrBuilder> 
+          dmi.v1beta1.Api.Device, dmi.v1beta1.Api.Device.Builder, dmi.v1beta1.Api.DeviceOrBuilder>
           getDeviceFieldBuilder() {
         if (deviceBuilder_ == null) {
           deviceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -40319,7 +40319,7 @@ public final class Api {
        * <code>.v1beta1.DeviceModel model = 1;</code>
        */
       public dmi.v1beta1.Api.DeviceModel.Builder getModelBuilder() {
-        
+
         onChanged();
         return getModelFieldBuilder().getBuilder();
       }
@@ -40338,7 +40338,7 @@ public final class Api {
        * <code>.v1beta1.DeviceModel model = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.DeviceModel, dmi.v1beta1.Api.DeviceModel.Builder, dmi.v1beta1.Api.DeviceModelOrBuilder> 
+          dmi.v1beta1.Api.DeviceModel, dmi.v1beta1.Api.DeviceModel.Builder, dmi.v1beta1.Api.DeviceModelOrBuilder>
           getModelFieldBuilder() {
         if (modelBuilder_ == null) {
           modelBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -40952,7 +40952,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         deviceName_ = s;
@@ -40968,7 +40968,7 @@ public final class Api {
         getDeviceNameBytes() {
       java.lang.Object ref = deviceName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         deviceName_ = b;
@@ -40990,7 +40990,7 @@ public final class Api {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         deviceNamespace_ = s;
@@ -41006,7 +41006,7 @@ public final class Api {
         getDeviceNamespaceBytes() {
       java.lang.Object ref = deviceNamespace_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         deviceNamespace_ = b;
@@ -41360,7 +41360,7 @@ public final class Api {
           getDeviceNameBytes() {
         java.lang.Object ref = deviceName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           deviceName_ = b;
@@ -41379,7 +41379,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         deviceName_ = value;
         onChanged();
         return this;
@@ -41389,7 +41389,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearDeviceName() {
-        
+
         deviceName_ = getDefaultInstance().getDeviceName();
         onChanged();
         return this;
@@ -41405,7 +41405,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         deviceName_ = value;
         onChanged();
         return this;
@@ -41436,7 +41436,7 @@ public final class Api {
           getDeviceNamespaceBytes() {
         java.lang.Object ref = deviceNamespace_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           deviceNamespace_ = b;
@@ -41455,7 +41455,7 @@ public final class Api {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         deviceNamespace_ = value;
         onChanged();
         return this;
@@ -41465,7 +41465,7 @@ public final class Api {
        * @return This builder for chaining.
        */
       public Builder clearDeviceNamespace() {
-        
+
         deviceNamespace_ = getDefaultInstance().getDeviceNamespace();
         onChanged();
         return this;
@@ -41481,7 +41481,7 @@ public final class Api {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         deviceNamespace_ = value;
         onChanged();
         return this;
@@ -42076,7 +42076,7 @@ public final class Api {
        * <code>.v1beta1.Device device = 1;</code>
        */
       public dmi.v1beta1.Api.Device.Builder getDeviceBuilder() {
-        
+
         onChanged();
         return getDeviceFieldBuilder().getBuilder();
       }
@@ -42095,7 +42095,7 @@ public final class Api {
        * <code>.v1beta1.Device device = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          dmi.v1beta1.Api.Device, dmi.v1beta1.Api.Device.Builder, dmi.v1beta1.Api.DeviceOrBuilder> 
+          dmi.v1beta1.Api.Device, dmi.v1beta1.Api.Device.Builder, dmi.v1beta1.Api.DeviceOrBuilder>
           getDeviceFieldBuilder() {
         if (deviceBuilder_ == null) {
           deviceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -42162,252 +42162,252 @@ public final class Api {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_MapperRegisterRequest_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_MapperRegisterRequest_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_MapperRegisterResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_MapperRegisterResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_DeviceModel_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_DeviceModel_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_DeviceModelSpec_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_DeviceModelSpec_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_ModelProperty_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_ModelProperty_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_DeviceCommand_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_DeviceCommand_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_Device_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_Device_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_DeviceSpec_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_DeviceSpec_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_DeviceProperty_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_DeviceProperty_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_ProtocolConfig_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_ProtocolConfig_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_VisitorConfig_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_VisitorConfig_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_CustomizedValue_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_CustomizedValue_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_CustomizedValue_DataEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_CustomizedValue_DataEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_PushMethod_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_PushMethod_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_PushMethodHTTP_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_PushMethodHTTP_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_PushMethodMQTT_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_PushMethodMQTT_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_DBMethod_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_DBMethod_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_DBMethodInfluxdb2_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_DBMethodInfluxdb2_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_Influxdb2DataConfig_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_Influxdb2DataConfig_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_Influxdb2DataConfig_TagEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_Influxdb2DataConfig_TagEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_Influxdb2ClientConfig_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_Influxdb2ClientConfig_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_DBMethodRedis_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_DBMethodRedis_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_RedisClientConfig_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_RedisClientConfig_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_DBMethodTDEngine_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_DBMethodTDEngine_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_TDEngineClientConfig_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_TDEngineClientConfig_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_DBMethodMySQL_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_DBMethodMySQL_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_MySQLClientConfig_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_MySQLClientConfig_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_MapperInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_MapperInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_ReportDeviceStatusRequest_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_ReportDeviceStatusRequest_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_ReportDeviceStatesRequest_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_ReportDeviceStatesRequest_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_DeviceStatus_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_DeviceStatus_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_Twin_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_Twin_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_TwinProperty_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_TwinProperty_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_TwinProperty_MetadataEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_TwinProperty_MetadataEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_ReportDeviceStatusResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_ReportDeviceStatusResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_ReportDeviceStatesResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_ReportDeviceStatesResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_RegisterDeviceRequest_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_RegisterDeviceRequest_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_RegisterDeviceResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_RegisterDeviceResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_CreateDeviceModelRequest_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_CreateDeviceModelRequest_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_CreateDeviceModelResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_CreateDeviceModelResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_RemoveDeviceRequest_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_RemoveDeviceRequest_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_RemoveDeviceResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_RemoveDeviceResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_RemoveDeviceModelRequest_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_RemoveDeviceModelRequest_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_RemoveDeviceModelResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_RemoveDeviceModelResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_UpdateDeviceRequest_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_UpdateDeviceRequest_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_UpdateDeviceResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_UpdateDeviceResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_UpdateDeviceModelRequest_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_UpdateDeviceModelRequest_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_UpdateDeviceModelResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_UpdateDeviceModelResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_GetDeviceRequest_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_GetDeviceRequest_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_v1beta1_GetDeviceResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_v1beta1_GetDeviceResponse_fieldAccessorTable;
 

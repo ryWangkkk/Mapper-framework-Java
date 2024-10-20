@@ -29,7 +29,6 @@ public class HTTPServer {
         // handle /api/v1/ping request
         @Override
         public void handle(HttpExchange exchange) throws IOException {
-            // 创建响应对象
             HttpResponse.PingResponse response = new HttpResponse.PingResponse();
             response.setApiVersion(apiVersion);
             response.setStatusCode(200);
@@ -47,7 +46,7 @@ public class HTTPServer {
         }
     }
     public static class DeviceReadHandler implements HttpHandler{
-        // handle /api/v1/device/{nameSpace}/{name}/{property} response
+        // handle /api/v1/device/{nameSpace}/{name}/{property} request
         private DevPanel devPanel;
         public DeviceReadHandler(DevPanel devPanel){
             this.devPanel = devPanel;
@@ -93,7 +92,7 @@ public class HTTPServer {
         }
     }
     public static class MetaGetModelHandler implements HttpHandler{
-        // handle /api/v1/meta/model/{nameSpace}/{name} response
+        // handle /api/v1/meta/model/{nameSpace}/{name} request
         private DevPanel devPanel;
         public MetaGetModelHandler(DevPanel devPanel){
             this.devPanel = devPanel;

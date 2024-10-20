@@ -75,7 +75,7 @@ public class GrpcClient {
                     .build();
 
             DeviceManagerServiceGrpc.DeviceManagerServiceBlockingStub blockingStub = DeviceManagerServiceGrpc.newBlockingStub(channel);
-            blockingStub.withDeadlineAfter(1, TimeUnit.SECONDS) 
+            blockingStub.withDeadlineAfter(1, TimeUnit.SECONDS)
                     .reportDeviceStatus(request);
         }finally {
             if (channel != null) {

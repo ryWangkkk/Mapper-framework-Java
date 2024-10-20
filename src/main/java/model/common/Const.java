@@ -24,4 +24,7 @@ public class Const {
     public static final Duration defaultCollectCycle = Duration.ofSeconds(1);
     public static final Duration defaultReportCycle = Duration.ofSeconds(1);
     public static final String apiVersion = "v1";
+    public static final String env_TOKEN = "TOKEN";
+    public static final String env_PASSWORD = "PASSWORD";
+    public static final String env_USERNAME = "USERNAME";
 }

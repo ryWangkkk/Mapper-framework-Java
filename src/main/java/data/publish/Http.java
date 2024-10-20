@@ -40,7 +40,7 @@ public class Http {
         }
 
         public void push(DataModel data) {
-            log.info("Publish device data by HTTP");
+            log.info("Publish {} by HTTP", data.getNameSpace()+"/"+data.getDeviceName()+"/"+data.getPropertyName());
             String targetUrl = this.httpConfig.hostName + ":" + this.httpConfig.port + this.httpConfig.requestPath;
             String payload = data.getPropertyName() + "=" + data.getValue();
             Instant instant = Instant.ofEpochMilli(data.getTimeStamp());
@@ -68,7 +68,7 @@ public class Http {
                 HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 
                 if (response.statusCode() != 200) {
-                    System.out.println("Error: " + response.statusCode());
+                    log.info("Error: " + response.statusCode());
                     return;
                 }
 

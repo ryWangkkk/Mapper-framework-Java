@@ -7,7 +7,7 @@ import driver.CustomizedClient;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
-import model.VisitorConfig;
+import driver.VisitorConfig;
 import model.common.DataModel;
 import model.common.DeviceInstance;
 
@@ -25,6 +25,7 @@ import java.util.concurrent.TimeUnit;
 
 import static data.DataConverter.convertToString;
 import static model.common.Const.defaultReportCycle;
+import static model.common.Const.env_PASSWORD;
 
 
 @Slf4j
@@ -82,6 +83,13 @@ public class Mysql {
         private String database;
         @JsonProperty("userName")
         private String userName;
+
+        public MysqlClientConfig(String addr, String database, String userName) {
+            this.addr = addr;
+            this.database = database;
+            this.userName = userName;
+        }
+        public MysqlClientConfig(){}
     }
 
     @Getter @Setter
@@ -90,7 +98,7 @@ public class Mysql {
         private MysqlClientConfig mysqlClientConfig;
         public Connection initDbClient(){
             Connection dbClient = null;
-            String password = System.getenv("PASSWORD");
+            String password = System.getenv(env_PASSWORD);
             String dataSourceName = String.format("jdbc:mysql://%s/%s", this.mysqlClientConfig.addr, this.mysqlClientConfig.database);
             try {
                 dbClient = DriverManager.getConnection(dataSourceName, this.mysqlClientConfig.userName, password);
@@ -119,9 +127,9 @@ public class Mysql {
 
             String insertSQL = String.format("INSERT INTO `%s` (ts, field) VALUES (?, ?)", tableName);
             try (PreparedStatement pstmt = dbClient.prepareStatement(insertSQL)) {
-                pstmt.setString(1, dateTime);  // 设置日期时间参数
-                pstmt.setString(2, data.getValue());  // 设置字段值参数
-                pstmt.executeUpdate();  // 执行插入
+                pstmt.setString(1, dateTime);
+                pstmt.setString(2, data.getValue());
+                pstmt.executeUpdate();
             } catch (SQLException e) {
                 log.error("Insert data into MySQL failed: {}", e.getMessage(), e);
             }

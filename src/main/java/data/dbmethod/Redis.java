@@ -7,7 +7,7 @@ import driver.CustomizedClient;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
-import model.VisitorConfig;
+import driver.VisitorConfig;
 import model.common.DataModel;
 import model.common.DeviceInstance;
 import redis.clients.jedis.Jedis;
@@ -26,6 +26,8 @@ import java.util.concurrent.TimeUnit;
 
 import static data.DataConverter.convertToString;
 import static model.common.Const.defaultReportCycle;
+import static model.common.Const.env_PASSWORD;
+
 @Slf4j
 public class Redis {
     public static void dataHandler(DeviceInstance.Twin twin, CustomizedClient client, VisitorConfig visitorConfig, DataModel dataModel, List<ScheduledFuture<?>> futures){
@@ -88,10 +90,10 @@ public class Redis {
 
     @Getter @Setter
     public static class DataBaseConfig{
-        @JsonProperty("mysqlClientConfig")
+        @JsonProperty("redisClientConfig")
         private RedisClientConfig redisClientConfig;
         public JedisPool initDbClient(){
-            String password = System.getenv("PASSWORD");
+            String password = System.getenv(env_PASSWORD);
             JedisPoolConfig poolConfig = new JedisPoolConfig();
             poolConfig.setMaxTotal(this.redisClientConfig.poolSize);
             poolConfig.setMinIdle(this.redisClientConfig.mineIdleConns);

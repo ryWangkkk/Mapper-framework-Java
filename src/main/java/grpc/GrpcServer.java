@@ -6,10 +6,11 @@ import dmi.v1beta1.Api;
 import dmi.v1beta1.DeviceManagerServiceGrpc;
 import dmi.v1beta1.DeviceMapperServiceGrpc;
 import io.grpc.Server;
-import io.grpc.ServerBuilder;
+import io.grpc.netty.NettyServerBuilder;
 import io.grpc.stub.StreamObserver;
-import jnr.unixsocket.UnixServerSocketChannel;
-import jnr.unixsocket.UnixSocketAddress;
+import io.netty.channel.epoll.EpollEventLoopGroup;
+import io.netty.channel.epoll.EpollServerDomainSocketChannel;
+import io.netty.channel.unix.DomainSocketAddress;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
@@ -17,9 +18,7 @@ import model.CustomizedDev;
 import model.common.DeviceInstance;
 import model.common.DeviceModel;
 
-import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
 import java.util.List;
 
 import static devicepanel.Device.buildApiTwinsFromLocal;
@@ -30,7 +29,6 @@ public class GrpcServer extends DeviceManagerServiceGrpc.DeviceManagerServiceImp
     private Server grpcServer;
     private ConfigGrpcServer cfg;
     private DevPanel devPanel;
-    private UnixServerSocketChannel serverSocket;
 
     @Getter @Setter
     public static class ConfigGrpcServer{
@@ -49,21 +47,16 @@ public class GrpcServer extends DeviceManagerServiceGrpc.DeviceManagerServiceImp
     }
 
     public void start() throws IOException {
-        String socketPath = cfg.getSocketPath();
 
-        File socketFile = new File(socketPath);
-        if (socketFile.exists()){
-            Files.delete(socketFile.toPath());
-        }
-
-        UnixSocketAddress address = new UnixSocketAddress(socketFile);
-        serverSocket = UnixServerSocketChannel.open();
-        serverSocket.socket().bind(address);
-
-        grpcServer = ServerBuilder.forPort(0)
-                .addService(new DeviceMapperServiceImpl())
+        grpcServer = NettyServerBuilder.forAddress(new DomainSocketAddress(cfg.getSocketPath()))
+                .addService(new DeviceMapperServiceImpl(devPanel))
+                .channelType(EpollServerDomainSocketChannel.class)
+                .bossEventLoopGroup(new EpollEventLoopGroup(1))
+                .workerEventLoopGroup(new EpollEventLoopGroup(1))
                 .build()
                 .start();
+
+        log.info("Grpc Server start successfully");
 
         Runtime.getRuntime().addShutdownHook(new Thread(this::stop));
 
@@ -84,6 +77,10 @@ public class GrpcServer extends DeviceManagerServiceGrpc.DeviceManagerServiceImp
     @Getter @Setter
     public static class DeviceMapperServiceImpl extends DeviceMapperServiceGrpc.DeviceMapperServiceImplBase{
         private DevPanel devPanel;
+
+        public DeviceMapperServiceImpl(DevPanel devPanel) {
+            this.devPanel = devPanel;
+        }
 
         @Override
         public void registerDevice(Api.RegisterDeviceRequest request, StreamObserver<Api.RegisterDeviceResponse> responseObserver) throws Exception {
@@ -114,7 +111,7 @@ public class GrpcServer extends DeviceManagerServiceGrpc.DeviceManagerServiceImp
         public void removeDevice(Api.RemoveDeviceRequest request, StreamObserver<Api.RemoveDeviceResponse> responseObserver) {
             // RemoveDevice unregisters a device to the device mapper.
             String deviceID = request.getDeviceNamespace() + "/" + request.getDeviceName();
-
+            log.info("deviceID is "+deviceID);
             this.devPanel.removeDevice(deviceID);
 
             Api.RemoveDeviceResponse removeDeviceResponse = Api.RemoveDeviceResponse.newBuilder().build();

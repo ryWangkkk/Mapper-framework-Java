@@ -56,7 +56,7 @@ public class Mqtt {
                 client.publish(this.mqttpConfig.topic, message);
 
                 client.disconnect(250);
-                System.out.println("###############  Message published.  ###############");
+                log.info("###############  Message published.  ###############");
             } catch (MqttException e) {
                 log.error("Publish device data by MQTT failed, err ={}", e.getMessage(),e);
             }

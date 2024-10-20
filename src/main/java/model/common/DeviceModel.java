@@ -18,7 +18,7 @@ public class DeviceModel {
     private String nameSpace = "";
 
     @JsonProperty("description")
-    private String description = "";//这个属性暂时没用到
+    private String description = "";
 
     @JsonProperty("properties")
     private List<ModelProperty> properties;

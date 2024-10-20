@@ -15,16 +15,14 @@ import data.publish.DataPanel;
 import data.publish.Http;
 import data.publish.Mqtt;
 import data.stream.StreamHandler;
-import dmi.v1beta1.Api;
-import driver.CustomizedClient;
-import grpc.GrpcClient;
-import lombok.extern.slf4j.Slf4j;
 import model.CustomizedDev;
-import model.VisitorConfig;
 import model.common.DataModel;
 import model.common.DeviceInstance;
 import model.common.DeviceModel;
-import model.common.PushMethodConfig;
+import dmi.v1beta1.Api;
+import driver.CustomizedClient;
+import driver.VisitorConfig;
+import lombok.extern.slf4j.Slf4j;
 
 import java.time.Duration;
 import java.time.Instant;
@@ -155,7 +153,7 @@ public class Device {
 
             // get the whole pushmethod field by grpc device instance
             String dbMethodName = "";
-            PushMethodConfig.DBConfig dbConfig = new PushMethodConfig.DBConfig();
+            DeviceInstance.DBConfig dbConfig = new DeviceInstance.DBConfig();
             byte[] pushMethod = null;
             String pushMethodName = "";
 
@@ -215,7 +213,7 @@ public class Device {
             deviceProperty.setProtocol(apiDevice.getSpec().getProtocol().getProtocolName());
             deviceProperty.setVisitors(visitorConfig);
 
-            PushMethodConfig.DBMethodConfig dbMethodConfig = new PushMethodConfig.DBMethodConfig();
+            DeviceInstance.DBMethodConfig dbMethodConfig = new DeviceInstance.DBMethodConfig();
             dbMethodConfig.setDbMethodName(dbMethodName);
             dbMethodConfig.setDbConfig(dbConfig);
 
@@ -357,7 +355,7 @@ public class Device {
                 DataModel dataModel = new DataModel();
                 dataModel.setDeviceName(customizedDev.getDeviceInstance().getName());
                 dataModel.setPropertyName(twin.getProperty().getPropertyName());
-                dataModel.setNameSpace(customizedDev.getDeviceInstance().getName());
+                dataModel.setNameSpace(customizedDev.getDeviceInstance().getNameSpace());
                 dataModel.setTimeStamp(System.currentTimeMillis());
                 dataModel.setType(twin.getObservedDesired().getMetadata().getType());
 

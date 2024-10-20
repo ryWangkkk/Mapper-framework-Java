@@ -103,7 +103,30 @@ public class DeviceInstance {
         private byte[] methodConfig;
 
         @JsonProperty("dbMethod")
-        private model.common.PushMethodConfig.DBMethodConfig dbMethod;
+        private DBMethodConfig dbMethod;
+    }
+
+    @Getter @Setter
+    public static class DBMethodConfig{
+        @JsonProperty("dbMethodName")
+        private String dbMethodName = "";
+        @JsonProperty("dbConfig")
+        private DBConfig dbConfig;
+
+    }
+
+    @Getter @Setter
+    public static class DBConfig {
+        @JsonProperty("influxdb2ClientConfig")
+        private byte[] influxdb2ClientConfig;
+        @JsonProperty("influxdb2DataConfig")
+        private byte[] influxdb2DataConfig;
+        @JsonProperty("redisClientConfig")
+        private byte[] redisClientConfig;
+        @JsonProperty("TDEngineClientConfig")
+        private byte[] tdEngineClientConfig;
+        @JsonProperty("mysqlClientConfig")
+        private byte[] mysqlClientConfig;
     }
 
     @Getter @Setter
